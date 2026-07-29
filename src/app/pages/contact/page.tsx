@@ -28,8 +28,7 @@ export default async function ContactPage() {
         <div>
           <h2 style={{ fontSize: "var(--text-h2)" }}>Address</h2>
           <p className="mt-4 font-body leading-relaxed">
-            Great Indoors, 272A Frontier Colony, Adarsh Nagar, Jaipur,
-            Rajasthan, 302004
+            272A Frontier Colony, Adarsh Nagar, Jaipur, 302004
           </p>
         </div>
 

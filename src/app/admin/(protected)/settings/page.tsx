@@ -8,7 +8,7 @@ const FIELDS = [
   {
     key: "whatsapp_number",
     label: "WhatsApp number",
-    help: "Digits only, country code first — e.g. 917791927939",
+    help: "Digits only, country code first — e.g. 919829012090",
     rows: 1,
   },
   {

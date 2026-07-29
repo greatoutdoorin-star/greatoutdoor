@@ -15,10 +15,10 @@ export const SITE = {
 } as const;
 
 /** Digits only, country code first — the format wa.me expects. */
-export const WHATSAPP_NUMBER = "917791927939";
+export const WHATSAPP_NUMBER = "919829012090";
 
 /** Human-readable form, for display in the sidebar/footer. */
-export const WHATSAPP_DISPLAY = "+91 77919 27939";
+export const WHATSAPP_DISPLAY = "+91 98290 12090";
 
 /**
  * Message templates. `{{token}}` placeholders are substituted at click time.
