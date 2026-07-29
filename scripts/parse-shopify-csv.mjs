@@ -224,11 +224,16 @@ function main() {
   const all = [...byHandle.values()];
   for (const p of all) p.images.sort((a, b) => a.pos - b.pos);
 
-  // Skip drafts: they carry no price, so there is nothing meaningful to show.
-  const active = all.filter((p) => p.status === "active" && p.price > 0);
-  const skipped = all.filter((p) => !(p.status === "active" && p.price > 0));
+  // Everything is imported. Products that are draft in Shopify, or carry no
+  // price, come in as inactive so they are hidden from the site but editable
+  // in the admin — publishing one is then a checkbox, not a re-import.
+  const isPublished = (p) => p.status === "active" && p.price > 0;
 
-  const out = active.map((p) => ({
+  // A product with no images cannot render a card, so it is still excluded.
+  const usable = all.filter((p) => p.name && p.images.length > 0);
+  const dropped = all.filter((p) => !(p.name && p.images.length > 0));
+
+  const out = usable.map((p) => ({
     slug: p.slug,
     name: p.name,
     description: p.description,
@@ -239,9 +244,15 @@ function main() {
     variantLabel: p.optionName || null,
     variants: p.variants,
     images: p.images.map((i) => i.src),
+    isActive: isPublished(p),
   }));
 
-  const counts = out.reduce((acc, p) => {
+  const active = out.filter((p) => p.isActive);
+  const skipped = dropped;
+
+  // Published only — drafts are hidden from the site, so counting them here
+  // would misreport what a visitor actually sees in each collection.
+  const counts = active.reduce((acc, p) => {
     acc[p.collection] = (acc[p.collection] || 0) + 1;
     return acc;
   }, {});
@@ -252,10 +263,12 @@ function main() {
   );
 
   console.log(`parsed ${all.length} products`);
-  console.log(`  imported: ${out.length}`);
-  console.log(`  skipped (draft / no price): ${skipped.length}`);
+  console.log(`  imported : ${out.length}`);
+  console.log(`    published : ${active.length}`);
+  console.log(`    draft     : ${out.length - active.length} (hidden, editable in admin)`);
+  console.log(`  skipped  : ${skipped.length} (no name or no images)`);
   console.log("");
-  console.log("by collection:");
+  console.log("published by collection:");
   for (const [k, v] of Object.entries(counts).sort()) {
     console.log(`  ${k.padEnd(12)} ${v}`);
   }
@@ -263,9 +276,15 @@ function main() {
   console.log(`images referenced: ${out.reduce((n, p) => n + p.images.length, 0)}`);
   console.log("-> scripts/parsed-products.json");
 
+  const drafts = out.filter((p) => !p.isActive);
+  if (drafts.length) {
+    console.log("\nimported as draft:");
+    for (const p of drafts) console.log(`  ${p.slug}`);
+  }
+
   if (skipped.length) {
-    console.log("\nskipped:");
-    for (const p of skipped) console.log(`  ${p.slug} (${p.status || "no status"})`);
+    console.log("\nskipped entirely:");
+    for (const p of skipped) console.log(`  ${p.slug || "(no slug)"}`);
   }
 }
 

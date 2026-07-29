@@ -110,7 +110,8 @@ async function main() {
     variant_label: p.variantLabel,
     variants: p.variants,
     images: p.images,
-    is_active: true,
+    // Drafts import hidden; publishing one is then a checkbox in the admin.
+    is_active: p.isActive !== false,
     sort_order: i,
   }));
 

@@ -21,7 +21,8 @@
       "/products/honey-textured-armchair-2.webp",
       "/products/honey-textured-armchair-3.webp",
       "/products/honey-textured-armchair-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "ivory-knotted-chair-table-set",
@@ -45,7 +46,8 @@
       "/products/ivory-knotted-chair-table-set-2.webp",
       "/products/ivory-knotted-chair-table-set-3.webp",
       "/products/ivory-knotted-chair-table-set-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "dark-curved-hourglass-table",
@@ -68,7 +70,8 @@
       "/products/dark-curved-hourglass-table-1.webp",
       "/products/dark-curved-hourglass-table-2.webp",
       "/products/dark-curved-hourglass-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "flared-base-round-table",
@@ -91,7 +94,8 @@
       "/products/flared-base-round-table-1.webp",
       "/products/flared-base-round-table-2.webp",
       "/products/flared-base-round-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "glass-top-round-table",
@@ -114,7 +118,8 @@
       "/products/glass-top-round-table-1.webp",
       "/products/glass-top-round-table-2.webp",
       "/products/glass-top-round-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "lower-arch-square-table",
@@ -137,7 +142,8 @@
       "/products/lower-arch-square-table-1.webp",
       "/products/lower-arch-square-table-2.webp",
       "/products/lower-arch-square-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "woven-round-table-with-intricate-sides",
@@ -160,7 +166,8 @@
       "/products/woven-round-table-with-intricate-sides-1.webp",
       "/products/woven-round-table-with-intricate-sides-2.webp",
       "/products/woven-round-table-with-intricate-sides-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "round-wicker-table",
@@ -183,7 +190,8 @@
       "/products/round-wicker-table-1.webp",
       "/products/round-wicker-table-2.webp",
       "/products/round-wicker-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "breeze-rattan-centrepiece",
@@ -207,7 +215,8 @@
       "/products/breeze-rattan-centrepiece-1.webp",
       "/products/breeze-rattan-centrepiece-2.webp",
       "/products/breeze-rattan-centrepiece-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "countryside-knotted-armchair-brown",
@@ -232,7 +241,8 @@
       "/products/countryside-knotted-armchair-brown-3.webp",
       "/products/countryside-knotted-armchair-brown-4.webp",
       "/products/countryside-knotted-armchair-brown-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "outdoor-tub-chair",
@@ -256,7 +266,8 @@
       "/products/outdoor-tub-chair-2.webp",
       "/products/outdoor-tub-chair-3.webp",
       "/products/outdoor-tub-chair-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "brown-knotted-armchair",
@@ -281,7 +292,8 @@
       "/products/brown-knotted-armchair-3.webp",
       "/products/brown-knotted-armchair-4.webp",
       "/products/brown-knotted-armchair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "luna-curve-chair",
@@ -306,7 +318,8 @@
       "/products/luna-curve-chair-3.webp",
       "/products/luna-curve-chair-4.webp",
       "/products/luna-curve-chair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "ivory-knotted-armchair",
@@ -331,7 +344,8 @@
       "/products/ivory-knotted-armchair-3.webp",
       "/products/ivory-knotted-armchair-4.webp",
       "/products/ivory-knotted-armchair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "half-round-comfort-chair",
@@ -356,7 +370,8 @@
       "/products/half-round-comfort-chair-3.webp",
       "/products/half-round-comfort-chair-4.webp",
       "/products/half-round-comfort-chair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "countryside-knotted-armchair",
@@ -380,7 +395,75 @@
       "/products/countryside-knotted-armchair-2.webp",
       "/products/countryside-knotted-armchair-3.webp",
       "/products/countryside-knotted-armchair-4.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "artificial-grass-55mm",
+    "name": "Artificial Grass (55mm)",
+    "description": "",
+    "price": 0,
+    "collection": "additions",
+    "material": "",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/artificial-grass-55mm-1.webp"
+    ],
+    "isActive": false
+  },
+  {
+    "slug": "cushion",
+    "name": "Cushion",
+    "description": "",
+    "price": 0,
+    "collection": "additions",
+    "material": "",
+    "specs": [],
+    "variantLabel": "Choice of Fabric",
+    "variants": [
+      "VERDE CLARO",
+      "ANIS",
+      "CONFETTI",
+      "VERDE",
+      "BOTELLA",
+      "FORET",
+      "INDIGO",
+      "BOMBAY",
+      "TURKIS",
+      "AZUL",
+      "MARINO",
+      "BRISA",
+      "TOFFEE",
+      "ALABASTRO",
+      "SILVER",
+      "PERLA",
+      "BASALTO",
+      "NEGRO",
+      "NATURAL",
+      "BLANCO",
+      "OPTIK",
+      "CAFE",
+      "TERRACOTA",
+      "MARRON",
+      "FUOCO",
+      "GRANATE",
+      "BRASSERIE",
+      "PINK",
+      "GRAPE",
+      "MALVA",
+      "LIMON",
+      "MANDARINA",
+      "AMARILLO",
+      "AZAFRAN",
+      "TOMATO",
+      "ROJO"
+    ],
+    "images": [
+      "/products/cushion-1.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "bohemian-vintage-chair",
@@ -406,7 +489,54 @@
       "/products/bohemian-vintage-chair-4.webp",
       "/products/bohemian-vintage-chair-5.webp",
       "/products/bohemian-vintage-chair-6.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "vogue-veranda-table",
+    "name": "Vogue Veranda Table",
+    "description": "Perfect for contemporary outdoor spaces, the Vogue Veranda Table stands out with its refined design and versatility. Crafted from durable PE cane, it offers exceptional durability and remains a functional asset for years. Ideal for outdoor patio furniture setups, it features a convenient hole in the center for an umbrella. Pair it with our Shino stackable chairs for a stylish and waterproof outdoor furniture arrangement.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions",
+      "20cm Depth",
+      "20cm Width",
+      "34cm Height",
+      "25cm Arm Height (from floor)",
+      "17cm Seat Height (from floor)",
+      "Wooden Finish on 100%",
+      "Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane (Zebra Weave in",
+      "Signal White and Graphite",
+      "Black)",
+      "Five-Year Craftsmanship",
+      "Warranty"
+    ],
+    "variantLabel": "Choice of Cane",
+    "variants": [
+      "Ribbed - White (6mm)",
+      "Ribbed - Whitewash (6mm)",
+      "Ribbed - Honeywicker (6mm)",
+      "Ribbed - Graphite Black (6mm)",
+      "Ribbed - Java Brown (6mm)",
+      "Ribbed - Cappuccino (6mm)",
+      "Pulut - Mocca Java (7mm)",
+      "Pulut - Arabica (7mm)",
+      "Pulut - Elegance Brown (7mm)",
+      "Pulut - Sea Shell (7mm)"
+    ],
+    "images": [
+      "/products/vogue-veranda-table-1.webp",
+      "/products/vogue-veranda-table-2.webp",
+      "/products/vogue-veranda-table-3.webp",
+      "/products/vogue-veranda-table-4.webp",
+      "/products/vogue-veranda-table-5.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "urban-filter-chair",
@@ -434,7 +564,8 @@
       "/products/urban-filter-chair-6.webp",
       "/products/urban-filter-chair-7.webp",
       "/products/urban-filter-chair-8.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "regal-charm-chair",
@@ -462,7 +593,60 @@
       "/products/regal-charm-chair-3.webp",
       "/products/regal-charm-chair-4.webp",
       "/products/regal-charm-chair-5.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "tropical-duo-lounger",
+    "name": "Tropical Duo Lounger",
+    "description": "Our best-selling luxurious duo rope lounger transports you to a tropical paradise, with soft cushions that envelop you in comfort. Crafted from durable aluminum and PE rope, this piece is ideal for luxury apartments and bungalows. For a stunning set, pair it with our Paradise Lounge Chair, and customize the colors to match your unique style.",
+    "price": 0,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/tropical-duo-lounger-1.webp",
+      "/products/tropical-duo-lounger-2.webp",
+      "/products/tropical-duo-lounger-3.webp"
+    ],
+    "isActive": false
+  },
+  {
+    "slug": "sleek-silhouette-table",
+    "name": "Sleek Silhouette Table",
+    "description": "Featuring an aluminum base and a tabletop crafted from cellulose fiber and resin, this table combines durability with easy maintenance. Ideal for chic urban lofts, minimalist outdoor workspaces, or open yards, it offers exceptional longevity and can withstand heat and rain. Perfect for outdoor gardens and patio furniture sets, it pairs beautifully with our patio rope chairs.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENETO",
+      "VENTO MARBLE"
+    ],
+    "images": [
+      "/products/sleek-silhouette-table-1.webp",
+      "/products/sleek-silhouette-table-2.webp",
+      "/products/sleek-silhouette-table-3.webp",
+      "/products/sleek-silhouette-table-4.webp",
+      "/products/sleek-silhouette-table-5.webp",
+      "/products/sleek-silhouette-table-6.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "willow-canopy-swing",
@@ -481,7 +665,8 @@
       "/products/willow-canopy-swing-4.webp",
       "/products/willow-canopy-swing-5.webp",
       "/products/willow-canopy-swing-6.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "nomadic-table",
@@ -504,7 +689,86 @@
       "/products/nomadic-table-1.webp",
       "/products/nomadic-table-2.webp",
       "/products/nomadic-table-3.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "paradise-lounge-chair",
+    "name": "Paradise Lounge Chair",
+    "description": "This premium rope chair transforms your outdoor space into a tropical haven, with soft cushions that envelop you in comfort. Constructed from durable materials, including an aluminum frame and PE rope, it’s perfect for luxury apartments and bungalows. The chair includes customizable cushions, making it an ideal choice for high-end garden furniture.",
+    "price": 0,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/paradise-lounge-chair-1.webp",
+      "/products/paradise-lounge-chair-2.webp",
+      "/products/paradise-lounge-chair-3.webp",
+      "/products/paradise-lounge-chair-4.webp"
+    ],
+    "isActive": false
+  },
+  {
+    "slug": "misty-mesh-table",
+    "name": "Misty Mesh Table",
+    "description": "Inspired by foggy mornings and gentle breezes, this cane-woven table is an ideal addition to your patio furniture set. Designed to endure various weather conditions, it promises durability and longevity. Easy to maintain and fully customizable to meet your needs, this table combines functionality with timeless elegance.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": "Choice of Cane",
+    "variants": [
+      "Ribbed - White (6mm)",
+      "Ribbed - Whitewash (6mm)",
+      "Ribbed - Honeywicker (6mm)",
+      "Ribbed - Graphite Black (6mm)",
+      "Ribbed - Java Brown (6mm)",
+      "Ribbed - Cappuccino (6mm)",
+      "Pulut - Mocca Java (7mm)",
+      "Pulut - Arabica (7mm)",
+      "Pulut - Elegance Brown (7mm)",
+      "Pulut - Sea Shell (7mm)"
+    ],
+    "images": [
+      "/products/misty-mesh-table-1.webp",
+      "/products/misty-mesh-table-2.webp",
+      "/products/misty-mesh-table-3.webp",
+      "/products/misty-mesh-table-4.webp"
+    ],
+    "isActive": false
+  },
+  {
+    "slug": "retro-woven-chair",
+    "name": "Retro Woven Chair",
+    "description": "Crafted from durable PE cane, this chair features a timeless silhouette and ample cushion space, making it a sophisticated addition to garden areas and poolside settings. Its robust construction ensures resilience against outdoor conditions and long-lasting enjoyment with minimal maintenance. Perfect for enhancing your outdoor spaces with elegance and durability.",
+    "price": 0,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": "Choice of Cane",
+    "variants": [
+      "Ribbed - White (6mm)",
+      "Ribbed - Whitewash (6mm)",
+      "Ribbed - Honeywicker (6mm)",
+      "Ribbed - Graphite Black (6mm)",
+      "Ribbed - Java Brown (6mm)",
+      "Ribbed - Cappuccino (6mm)",
+      "Pulut - Mocca Java (7mm)",
+      "Pulut - Arabica (7mm)",
+      "Pulut - Elegance Brown (7mm)",
+      "Pulut - Sea Shell (7mm)"
+    ],
+    "images": [
+      "/products/retro-woven-chair-1.webp",
+      "/products/retro-woven-chair-2.webp",
+      "/products/retro-woven-chair-3.webp",
+      "/products/retro-woven-chair-4.webp",
+      "/products/retro-woven-chair-5.webp",
+      "/products/retro-woven-chair-6.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "classic-mesh-chair",
@@ -529,7 +793,41 @@
       "/products/classic-mesh-chair-3.webp",
       "/products/classic-mesh-chair-4.webp",
       "/products/classic-mesh-chair-5.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "ethereal-table",
+    "name": "Ethereal Table",
+    "description": "Inspired by the northern skies, this table boasts a stone-like tabletop crafted from cellulose fiber and resin. With a tri-legged aluminum base, it ensures both exceptional sturdiness and a lightweight design. Ideal for outdoor use, it's rust-free and stain-resistant, making it easy to clean. Combining durability and style, it's perfect for laid-back evenings and quality time with loved ones.",
+    "price": 0,
+    "collection": "tables",
+    "material": "",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENE",
+      "VENTO MARBL"
+    ],
+    "images": [
+      "/products/ethereal-table-1.webp",
+      "/products/ethereal-table-2.webp",
+      "/products/ethereal-table-3.webp",
+      "/products/ethereal-table-4.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "vintage-majestic-chair",
@@ -553,7 +851,57 @@
       "/products/vintage-majestic-chair-2.webp",
       "/products/vintage-majestic-chair-3.webp",
       "/products/vintage-majestic-chair-4.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "nomadic-sand-table",
+    "name": "Nomadic Sand Table",
+    "description": "Crafted from PE cane, this table is an ideal addition to your patio furniture set and other outdoor spaces. Designed to endure heat and dust, it offers exceptional durability and longevity. Maintenance is simple—just wipe with a damp cloth to remove dust or moisture. It features built-in storage and offers multiple customizable size and color options for sofa and chair sets.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/nomadic-sand-table-1.webp",
+      "/products/nomadic-sand-table-2.webp",
+      "/products/nomadic-sand-table-3.webp"
+    ],
+    "isActive": false
+  },
+  {
+    "slug": "bohemian-classic-chair",
+    "name": "Bohemian Classic Chair",
+    "description": "Handmade with an aluminum frame and high-quality cane featuring a check pattern weave, this garden chair offers exceptional comfort and support. The aluminum frame, finished with a wood polish, ensures durability for outdoor use. Rust-free and lightweight, it's an ideal choice for balcony, garden, and patio furniture setups.",
+    "price": 0,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": "Choice of Cane",
+    "variants": [
+      "Ribbed - White (6mm)",
+      "Ribbed - Whitewash (6mm)",
+      "Ribbed - Honeywicker (6mm)",
+      "Ribbed - Graphite Black (6mm)",
+      "Ribbed - Java Brown (6mm)",
+      "Ribbed - Cappuccino (6mm)",
+      "Pulut - Mocca Java (7mm)",
+      "Pulut - Arabica (7mm)",
+      "Pulut - Elegance Brown (7mm)",
+      "Pulut - Sea Shell (7mm)"
+    ],
+    "images": [
+      "/products/bohemian-classic-chair-1.webp",
+      "/products/bohemian-classic-chair-2.webp",
+      "/products/bohemian-classic-chair-3.webp",
+      "/products/bohemian-classic-chair-4.webp",
+      "/products/bohemian-classic-chair-5.webp",
+      "/products/bohemian-classic-chair-6.webp",
+      "/products/bohemian-classic-chair-7.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "rustic-braided-bar-chair",
@@ -578,7 +926,8 @@
       "/products/rustic-braided-bar-chair-3.webp",
       "/products/rustic-braided-bar-chair-4.webp",
       "/products/rustic-braided-bar-chair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "check-mate-table",
@@ -603,7 +952,8 @@
       "/products/check-mate-table-3.webp",
       "/products/check-mate-table-4.webp",
       "/products/check-mate-table-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "woven-refuge-chair",
@@ -628,7 +978,41 @@
       "/products/woven-refuge-chair-3.webp",
       "/products/woven-refuge-chair-4.webp",
       "/products/woven-refuge-chair-5.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "khakhi-sheen-table",
+    "name": "Khakhi Sheen Table",
+    "description": "Made with a durable aluminum base and featuring a sleek tabletop molded from cellulose fiber and resin, this waterproof table is a perfect addition to your outdoor furniture and patio furniture sets. It is waterproof, stain-resistant, and scratch-proof, while its lightweight design ensures easy mobility. Best paired with cane chairs and cane sofa sets.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENETO",
+      "VENTO MARBLE"
+    ],
+    "images": [
+      "/products/khakhi-sheen-table-1.webp",
+      "/products/khakhi-sheen-table-2.webp",
+      "/products/khakhi-sheen-table-3.webp",
+      "/products/khakhi-sheen-table-4.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "wild-stripes-bar-chair",
@@ -654,7 +1038,27 @@
       "/products/wild-stripes-bar-chair-4.webp",
       "/products/wild-stripes-bar-chair-5.webp",
       "/products/wild-stripes-bar-chair-6.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "rustic-weave-chair",
+    "name": "Rustic Weave Chair",
+    "description": "Inspired by gypsy patterns and boho style, this rope-knit chair with an aluminum frame adds a touch of class to outdoor spaces such as patios, yards, and balconies. Designed to withstand harsh weather conditions, these chairs can be left outdoors 24/7 without concern for heat or dust. Easy to maintain, simply wipe clean with a damp cloth. Pair them with our waterproof table to create an attractive and functional outdoor furniture set.",
+    "price": 0,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/rustic-weave-chair-1.webp",
+      "/products/rustic-weave-chair-2.webp",
+      "/products/rustic-weave-chair-3.webp",
+      "/products/rustic-weave-chair-4.webp",
+      "/products/rustic-weave-chair-5.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "crescent-comfort-chair",
@@ -681,7 +1085,42 @@
       "/products/crescent-comfort-chair-5.webp",
       "/products/crescent-comfort-chair-6.webp",
       "/products/crescent-comfort-chair-7.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "misty-pearl-table-golden",
+    "name": "Misty Pearl Table (Golden)",
+    "description": "Inspired by the hues of morning mist, this table features a stone-like tabletop crafted from cellulose fiber and resin with PE rope knit borders. Its aluminum frame with a wood-like finish provides perfect sturdiness. Rust-free and stain-resistant, this table is easy to clean and ideal for outdoor use. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style. It pairs perfectly with the Tinted Haven Chair.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENETO",
+      "VENTO MARBLE"
+    ],
+    "images": [
+      "/products/misty-pearl-table-golden-1.webp",
+      "/products/misty-pearl-table-golden-2.webp",
+      "/products/misty-pearl-table-golden-3.webp",
+      "/products/misty-pearl-table-golden-4.webp",
+      "/products/misty-pearl-table-golden-5.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "tinted-haven-chair",
@@ -706,7 +1145,44 @@
       "/products/tinted-haven-chair-3.webp",
       "/products/tinted-haven-chair-4.webp",
       "/products/tinted-haven-chair-5.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "misty-pearl-table-white",
+    "name": "Misty Pearl Table (white)",
+    "description": "Inspired by the hues of morning mist, this table features a stone-like tabletop crafted from cellulose fiber and resin with PE rope knit borders. Its aluminum frame provides perfect sturdiness for outdoor areas. Rust-free and stain-resistant, this table is easy to clean and ideal for outdoor use. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style. Can be customized based on the size required.",
+    "price": 0,
+    "collection": "tables",
+    "material": "Rope",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENETO",
+      "VENTO MARBLE"
+    ],
+    "images": [
+      "/products/misty-pearl-table-white-1.webp",
+      "/products/misty-pearl-table-white-2.webp",
+      "/products/misty-pearl-table-white-3.webp",
+      "/products/misty-pearl-table-white-4.webp",
+      "/products/misty-pearl-table-white-5.webp",
+      "/products/misty-pearl-table-white-6.webp",
+      "/products/misty-pearl-table-white-7.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "mystic-courtyard-chair",
@@ -731,7 +1207,8 @@
       "/products/mystic-courtyard-chair-3.webp",
       "/products/mystic-courtyard-chair-4.webp",
       "/products/mystic-courtyard-chair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "zebra-chic-chair",
@@ -762,7 +1239,8 @@
       "/products/zebra-chic-chair-6.webp",
       "/products/zebra-chic-chair-7.webp",
       "/products/zebra-chic-chair-8.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "zebra-savvy-table",
@@ -786,7 +1264,8 @@
       "/products/zebra-savvy-table-2.webp",
       "/products/zebra-savvy-table-3.webp",
       "/products/zebra-savvy-table-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "zebra-zen-chair",
@@ -811,7 +1290,8 @@
       "/products/zebra-zen-chair-2.webp",
       "/products/zebra-zen-chair-3.webp",
       "/products/zebra-zen-chair-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "zebra-luxe-sofa",
@@ -835,7 +1315,8 @@
       "/products/zebra-luxe-sofa-2.webp",
       "/products/zebra-luxe-sofa-3.webp",
       "/products/zebra-luxe-sofa-4.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "swirl-haven-table",
@@ -858,7 +1339,8 @@
       "/products/swirl-haven-table-1.webp",
       "/products/swirl-haven-table-2.webp",
       "/products/swirl-haven-table-3.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "hollow-haven-chair",
@@ -883,7 +1365,8 @@
       "/products/hollow-haven-chair-3.webp",
       "/products/hollow-haven-chair-4.webp",
       "/products/hollow-haven-chair-5.webp"
-    ]
+    ],
+    "isActive": true
   },
   {
     "slug": "shino-stackable-chair",
@@ -907,7 +1390,41 @@
       "/products/shino-stackable-chair-2.webp",
       "/products/shino-stackable-chair-3.webp",
       "/products/shino-stackable-chair-4.webp"
-    ]
+    ],
+    "isActive": true
+  },
+  {
+    "slug": "aurora-black-table",
+    "name": "Aurora Black Table",
+    "description": "Inspired by the northern skies, this table features a stone-like tabletop crafted from cellulose fiber and resin. Its aluminum legs provide perfect sturdiness and a wood-like finish. Rust-free and stain-resistant, this table is easy to clean and is ideal for outdoor use, enhancing any landscape. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style.",
+    "price": 100,
+    "collection": "tables",
+    "material": "",
+    "specs": [],
+    "variantLabel": "Choice of Table Top",
+    "variants": [
+      "ADVIKA",
+      "CANYON MONUMENT OAK",
+      "DELANO EICHE",
+      "ALOE WOOD",
+      "COSMIC NERO",
+      "GREY CASPIO",
+      "JARAMA ELM",
+      "LIGHT AGRIPINA",
+      "NEW COLOR RANGE",
+      "ONYX",
+      "POMPEU SLATE",
+      "TIVOLI",
+      "VENETO",
+      "VENTO MARBLE"
+    ],
+    "images": [
+      "/products/aurora-black-table-1.webp",
+      "/products/aurora-black-table-2.webp",
+      "/products/aurora-black-table-3.webp",
+      "/products/aurora-black-table-4.webp"
+    ],
+    "isActive": false
   },
   {
     "slug": "bohemian-breeze-chair",
@@ -935,6 +1452,7 @@
       "/products/bohemian-breeze-chair-5.webp",
       "/products/bohemian-breeze-chair-6.webp",
       "/products/bohemian-breeze-chair-7.webp"
-    ]
+    ],
+    "isActive": true
   }
 ]

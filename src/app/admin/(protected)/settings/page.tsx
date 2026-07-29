@@ -35,6 +35,12 @@ const FIELDS = [
     help: "The scrolling band beneath the featured products.",
     rows: 2,
   },
+  {
+    key: "announcement_text",
+    label: "Announcement bar",
+    help: "Orange promo band at the very top. Leave blank to hide it.",
+    rows: 2,
+  },
 ] as const;
 
 async function saveSettings(formData: FormData) {

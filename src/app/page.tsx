@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CategoryCarousel, { type Category } from "@/components/CategoryCarousel";
+import ClienteleCarousel from "@/components/ClienteleCarousel";
 import HeroSlider, { type HeroSlide } from "@/components/HeroSlider";
 import Marquee from "@/components/Marquee";
 import MaterialsSplit from "@/components/MaterialsSplit";
@@ -72,6 +73,11 @@ const MATERIAL_PANELS = [
   { label: "CANE", image: "/home/mat-cane.webp" },
 ];
 
+const CLIENT_LOGOS = Array.from(
+  { length: 15 },
+  (_, i) => `/clients/client-${i + 1}.webp`,
+);
+
 export default async function Home() {
   const [products, navCollections, heroSlides, settings] = await Promise.all([
     getAllProducts(),
@@ -92,7 +98,10 @@ export default async function Home() {
   }));
 
   return (
-    <SiteShell collections={navCollections}>
+    <SiteShell
+      collections={navCollections}
+      announcement={settings.announcement_text}
+    >
       <HeroSlider slides={slides} />
 
       <PromoSplit image="/home/promo.webp" products={promo} />
@@ -125,6 +134,9 @@ export default async function Home() {
           Trusted by leading hotels, resorts and hospitality groups across the
           country.
         </p>
+        <div className="mt-12">
+          <ClienteleCarousel logos={CLIENT_LOGOS} />
+        </div>
       </section>
 
       <MaterialsSplit panels={MATERIAL_PANELS} />
