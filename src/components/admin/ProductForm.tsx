@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import ImageUploader from "./ImageUploader";
 
 export type ProductFormValues = {
   id?: string;
@@ -165,12 +166,26 @@ export default function ProductForm({
               style={{ fontSize: "var(--text-body-sm)" }}
             />
 
+            <ImageUploader
+              folder="products"
+              multiple
+              label="Upload product images"
+              onUploaded={(urls) =>
+                setImages((prev) =>
+                  [...prev.split("\n"), ...urls]
+                    .map((s) => s.trim())
+                    .filter(Boolean)
+                    .join("\n"),
+                )
+              }
+            />
+
             {imageList.length > 0 && (
               <div className="mt-4 flex flex-wrap gap-3">
                 {imageList.map((src, i) => (
                   <div
                     key={`${src}-${i}`}
-                    className="relative h-20 w-20 border border-hairline bg-surface"
+                    className="group relative h-20 w-20 border border-hairline bg-surface"
                   >
                     <Image
                       src={src}
@@ -184,6 +199,18 @@ export default function ProductForm({
                         1st
                       </span>
                     )}
+                    <button
+                      type="button"
+                      aria-label={`Remove image ${i + 1}`}
+                      onClick={() =>
+                        setImages(
+                          imageList.filter((_, n) => n !== i).join("\n"),
+                        )
+                      }
+                      className="absolute right-0 top-0 hidden h-5 w-5 items-center justify-center bg-red-700 text-[11px] leading-none text-white group-hover:flex"
+                    >
+                      ×
+                    </button>
                   </div>
                 ))}
               </div>

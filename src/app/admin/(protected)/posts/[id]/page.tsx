@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createAuthClient } from "@/lib/supabase/auth-server";
+import ImageField from "@/components/admin/ImageField";
 
 export const dynamic = "force-dynamic";
 
@@ -201,16 +202,13 @@ export default async function EditPostPage({ params }: Props) {
           </div>
 
           <div>
-            <label className={label} htmlFor="cover">
-              Cover image path
-            </label>
-            <input
-              id="cover"
+            <span className={label}>Cover image</span>
+            <ImageField
               name="cover"
               defaultValue={post.cover ?? ""}
+              folder="blog"
+              label="Upload cover image"
               placeholder="/blog/my-cover.webp"
-              className={`${field} font-mono`}
-              style={{ fontSize: "var(--text-body-sm)" }}
             />
           </div>
 

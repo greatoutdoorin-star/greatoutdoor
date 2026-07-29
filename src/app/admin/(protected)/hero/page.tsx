@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { revalidatePath } from "next/cache";
 import { createAuthClient } from "@/lib/supabase/auth-server";
+import ImageField from "@/components/admin/ImageField";
 
 export const dynamic = "force-dynamic";
 
@@ -95,9 +95,9 @@ export default async function AdminHeroPage() {
       </div>
 
       <p className="mt-3 font-body text-ink-muted">
-        The carousel at the top of the home page. Images live in{" "}
-        <code>public/</code> — upload a file there and reference it as{" "}
-        <code>/my-image.webp</code>. Headline and subtext are optional.
+        The carousel at the top of the home page. Drag an image onto a slide to
+        upload it, or paste a path if the file already lives in{" "}
+        <code>public/</code>. Headline and subtext are optional.
       </p>
 
       <form action={saveSlides} className="mt-10 max-w-4xl space-y-6">
@@ -105,28 +105,16 @@ export default async function AdminHeroPage() {
           <div key={s.id} className="border border-hairline p-5">
             <input type="hidden" name="id" value={s.id} />
 
-            <div className="grid gap-5 sm:grid-cols-[120px_1fr]">
-              <div className="relative aspect-video w-full bg-surface sm:aspect-square">
-                {s.image && (
-                  <Image
-                    src={s.image}
-                    alt=""
-                    fill
-                    sizes="120px"
-                    className="object-cover"
-                  />
-                )}
-              </div>
+            <div className="grid gap-5 sm:grid-cols-[240px_1fr]">
+              <ImageField
+                name={`image-${s.id}`}
+                defaultValue={s.image}
+                folder="hero"
+                label="Upload slide image"
+                placeholder="/hero-1.webp"
+              />
 
               <div className="space-y-4">
-                <input
-                  name={`image-${s.id}`}
-                  defaultValue={s.image}
-                  placeholder="/hero-1.webp"
-                  aria-label="Image path"
-                  className={`${field} font-mono`}
-                  style={{ fontSize: "var(--text-body-sm)" }}
-                />
                 <input
                   name={`headline-${s.id}`}
                   defaultValue={s.headline ?? ""}
