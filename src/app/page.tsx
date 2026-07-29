@@ -24,6 +24,9 @@ const FEATURED_SLUGS = [
 ];
 const PROMO_SLUGS = ["rustic-braided-bar-chair", "willow-canopy-swing"];
 
+/** Pages of 2 in the promo carousel — the reference shows four dots. */
+const PROMO_PAGES = 4;
+
 const toCard = (p: Product) => ({
   name: p.name,
   slug: p.slug,
@@ -87,7 +90,18 @@ export default async function Home() {
   ]);
 
   const featured = pick(products, FEATURED_SLUGS);
-  const promo = pick(products, PROMO_SLUGS);
+
+  // The two named products lead, then the carousel is topped up so it actually
+  // slides — with only two cards there is one page and the dots never render.
+  const promo = [
+    ...pick(products, PROMO_SLUGS),
+    ...products
+      .filter(
+        (p) =>
+          !PROMO_SLUGS.includes(p.slug) && !FEATURED_SLUGS.includes(p.slug),
+      )
+      .map(toCard),
+  ].slice(0, PROMO_PAGES * 2);
 
   const slides = heroSlides.map((s) => ({
     image: s.image,

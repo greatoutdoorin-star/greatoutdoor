@@ -14,7 +14,10 @@ type Props = {
 export default function PromoSplit({ image, products }: Props) {
   return (
     <section className="grid items-center gap-10 px-6 py-16 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-12 lg:px-14">
-      <div className="relative aspect-[16/9] w-full">
+      {/* 5:4 — the source art was cropped to its content (it was 83%
+          whitespace at 1366x768, with a 189px dead band above the phone
+          number), so the box now matches the artwork instead of padding it. */}
+      <div className="relative aspect-[5/4] w-full">
         <Image
           src={image}
           alt="Get a confirmation call for every order with our landscape stylist within 24 hours"
