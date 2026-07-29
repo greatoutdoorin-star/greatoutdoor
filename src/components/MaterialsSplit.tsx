@@ -24,7 +24,24 @@ export default function MaterialsSplit({ panels }: Props) {
   // Percentage of the *bottom* panel that is visible, matching the theme's
   // `--position`. 50 means an even split.
   const [position, setPosition] = useState(50);
+  const [dragging, setDragging] = useState(false);
   const frameRef = useRef<HTMLDivElement>(null);
+
+  /**
+   * Map a viewport Y coordinate to the bottom panel's share of the frame.
+   * Measured per event rather than cached, so it stays correct after a resize
+   * or a scroll mid-drag.
+   */
+  function updateFromPointer(clientY: number) {
+    const frame = frameRef.current;
+    if (!frame) return;
+
+    const { top: frameTop, height } = frame.getBoundingClientRect();
+    if (height === 0) return;
+
+    const fromBottom = 1 - (clientY - frameTop) / height;
+    setPosition(Math.min(100, Math.max(0, fromBottom * 100)));
+  }
 
   const [top, bottom] = panels;
   if (!top || !bottom) return null;
@@ -70,11 +87,35 @@ export default function MaterialsSplit({ panels }: Props) {
         </div>
 
         {/*
-          The range input drives the wipe; it is transparent, so the handle
-          above is what the user sees. Vertical orientation puts 0 at the
-          bottom, which already matches `position` being the bottom panel's
-          share. Constrained to a centre column so it covers the handle without
-          swallowing clicks on the two label links.
+          Drag surface. Pointer events set the position directly from the
+          cursor's Y within the frame, rather than relying on a vertical range
+          input — `-webkit-appearance: slider-vertical` (what the reference
+          theme uses) is non-standard and was dropped in Chrome 121, so a
+          rotated input drags erratically or not at all in current browsers.
+          Pointer capture keeps the drag alive if the cursor leaves the frame.
+        */}
+        <div
+          onPointerDown={(e) => {
+            e.currentTarget.setPointerCapture(e.pointerId);
+            setDragging(true);
+            updateFromPointer(e.clientY);
+          }}
+          onPointerMove={(e) => {
+            if (!dragging) return;
+            updateFromPointer(e.clientY);
+          }}
+          onPointerUp={(e) => {
+            e.currentTarget.releasePointerCapture(e.pointerId);
+            setDragging(false);
+          }}
+          onPointerCancel={() => setDragging(false)}
+          className="absolute inset-0 z-30 cursor-row-resize touch-none"
+        />
+
+        {/*
+          Keyboard equivalent. Visually hidden but focusable, so the comparison
+          is operable without a pointer — the drag surface above cannot be
+          tabbed to or driven with arrow keys.
         */}
         <input
           type="range"
@@ -83,8 +124,7 @@ export default function MaterialsSplit({ panels }: Props) {
           value={position}
           onChange={(e) => setPosition(Number(e.target.value))}
           aria-label="Drag to compare rope and cane weaves"
-          className="absolute inset-x-0 z-30 mx-auto h-full w-32 cursor-row-resize appearance-none bg-transparent opacity-0"
-          style={{ writingMode: "vertical-lr", direction: "rtl" }}
+          className="sr-only"
         />
       </div>
     </section>
@@ -115,11 +155,11 @@ function PanelImage({
         className="object-cover"
         priority={false}
       />
-      {/* z-10 keeps the chip above the photo but below the handle and input,
-          so the label stays readable without blocking the drag. */}
+      {/* z-40 puts the chip above the drag surface so it stays clickable; the
+          surface covers the whole frame, which would otherwise swallow it. */}
       <Link
         href="/pages/materials"
-        className={`absolute left-1/2 z-10 -translate-x-1/2 -translate-y-1/2 bg-canvas px-8 py-4 font-display font-semibold tracking-[0.08em] transition-colors hover:text-accent ${
+        className={`absolute left-1/2 z-40 -translate-x-1/2 -translate-y-1/2 bg-canvas px-8 py-4 font-display font-semibold tracking-[0.08em] transition-colors hover:text-accent ${
           align === "top" ? "top-1/4" : "top-3/4"
         }`}
         style={{ fontSize: "var(--text-body-hd)" }}
