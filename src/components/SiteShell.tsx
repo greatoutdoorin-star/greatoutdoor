@@ -23,9 +23,17 @@ export default function SiteShell({
   return (
     <div className="min-h-full">
       {announcement && <AnnouncementBar text={announcement} />}
-      <Sidebar collections={collections} />
-      {/* pt-16 clears the mobile top bar; .site-main clears the desktop rail */}
-      <div className="site-main pt-16 lg:pt-0">
+      <Sidebar collections={collections} hasAnnouncement={Boolean(announcement)} />
+      {/*
+        pt-16 clears the fixed mobile header; .site-main clears the desktop
+        rail. The announcement bar is also fixed, so .has-announcement adds its
+        height on top — see globals.css.
+      */}
+      <div
+        className={`site-main pt-16 lg:pt-0 ${
+          announcement ? "has-announcement" : ""
+        }`}
+      >
         <main>{children}</main>
         <ValueProps />
         <Footer />

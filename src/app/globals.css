@@ -113,6 +113,49 @@ body::-webkit-scrollbar,
   }
 }
 
+/*
+  Announcement bar height. The bar is fixed, so anything else pinned to the top
+  (the mobile header) and the page content both need to clear it.
+*/
+:root {
+  --announcement-h: 36px;
+}
+
+.has-announcement {
+  padding-top: calc(4rem + var(--announcement-h));
+}
+
+@media (min-width: 1024px) {
+  .has-announcement {
+    padding-top: var(--announcement-h);
+  }
+
+  /* Desktop rail is fixed too — push it below the bar. */
+  .site-sidebar {
+    top: var(--announcement-h);
+  }
+}
+
+/*
+  Mobile type scale.
+
+  The measured desktop scale (h0 31px, hh 50px) is too heavy on a 375px screen,
+  where those headings wrap to three or four lines. These overrides shrink the
+  display sizes below `sm` while leaving body copy — already only ~14px —
+  untouched.
+*/
+@media (max-width: 639px) {
+  :root {
+    --text-hh: 30px;
+    --text-h0: 24px;
+    --text-h1: 22px;
+    --text-h2: 17px;
+    --text-h3: 16px;
+    --text-body-lg: 15px;
+    --text-body-hu: 18px;
+  }
+}
+
 /* Long-form policy copy: comfortable rhythm without per-element classes. */
 .policy-body p {
   margin-bottom: 1.25rem;

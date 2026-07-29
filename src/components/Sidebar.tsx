@@ -11,9 +11,14 @@ export type NavCollection = { name: string; slug: string };
 type SidebarProps = {
   /** Collections rendered into the primary nav, ordered by sort_order. */
   collections: NavCollection[];
+  /** Shifts the fixed mobile header down to clear the announcement bar. */
+  hasAnnouncement?: boolean;
 };
 
-export default function Sidebar({ collections }: SidebarProps) {
+export default function Sidebar({
+  collections,
+  hasAnnouncement = false,
+}: SidebarProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -83,7 +88,11 @@ export default function Sidebar({ collections }: SidebarProps) {
   return (
     <>
       {/* Mobile top bar — only rendered below lg */}
-      <header className="fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-5 lg:hidden">
+      <header
+        className={`fixed inset-x-0 z-40 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-5 lg:hidden ${
+          hasAnnouncement ? "top-[var(--announcement-h)]" : "top-0"
+        }`}
+      >
         <Link href="/" aria-label={SITE.name}>
           <Image
             src="/logo.webp"
@@ -123,7 +132,9 @@ export default function Sidebar({ collections }: SidebarProps) {
 
       {/* Mobile drawer */}
       <div
-        className={`fixed inset-0 z-30 bg-canvas px-5 pt-24 transition-opacity lg:hidden ${
+        className={`no-scrollbar fixed inset-0 z-30 overflow-y-auto bg-canvas px-5 pb-10 transition-opacity lg:hidden ${
+          hasAnnouncement ? "pt-32" : "pt-24"
+        } ${
           open
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0"

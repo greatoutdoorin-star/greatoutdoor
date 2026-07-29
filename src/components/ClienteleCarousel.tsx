@@ -46,17 +46,18 @@ export default function ClienteleCarousel({ logos }: Props) {
         ref={trackRef}
         className="no-scrollbar flex snap-x snap-mandatory items-center gap-10 overflow-x-auto scroll-smooth lg:gap-14"
       >
+        {/* Fewer, larger logos per view — at 18% width they were unreadable. */}
         {logos.map((src, i) => (
           <div
             key={src}
-            className="relative h-24 w-[45%] shrink-0 snap-start sm:w-[30%] lg:h-28 lg:w-[18%]"
+            className="relative h-36 w-[70%] shrink-0 snap-start sm:h-40 sm:w-[42%] lg:h-44 lg:w-[30%]"
           >
             <Image
               src={src}
               alt={`Client ${i + 1}`}
               fill
-              sizes="(max-width: 640px) 45vw, (max-width: 1023px) 30vw, 18vw"
-              className="object-contain opacity-60 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+              sizes="(max-width: 640px) 70vw, (max-width: 1023px) 42vw, 30vw"
+              className="object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
             />
           </div>
         ))}

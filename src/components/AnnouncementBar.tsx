@@ -26,7 +26,9 @@ export default function AnnouncementBar({ text }: Props) {
   if (!text || !visible) return null;
 
   return (
-    <div className="relative z-50 bg-accent px-10 py-2 text-center">
+    // Fixed above the mobile header (which is itself fixed at top-0), so the
+    // two never overlap. The shell offsets its content to match.
+    <div className="fixed inset-x-0 top-0 z-50 bg-accent px-10 py-2 text-center">
       <p
         className="font-body text-white"
         style={{ fontSize: "var(--text-body-sm)" }}

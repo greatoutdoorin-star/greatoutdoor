@@ -50,11 +50,15 @@ export default async function ProductPage({ params }: Props) {
 
   return (
     <SiteShell collections={navCollections}>
-      <div className="grid gap-12 px-6 pt-10 lg:grid-cols-2 lg:gap-16 lg:px-14 lg:pt-14">
-        {/* Copy column — image sits right on desktop, as on the reference page */}
-        <div className="lg:order-1">
+      <div className="grid gap-10 px-6 pt-8 lg:grid-cols-2 lg:gap-16 lg:px-14 lg:pt-14">
+        {/*
+          Copy column. On desktop it sits left with the gallery on the right,
+          as on the reference page. On mobile the gallery comes first (order-1
+          below) so the product is visible before any text.
+        */}
+        <div className="order-2 lg:order-1">
           <nav
-            className="font-body text-ink-muted"
+            className="flex flex-wrap items-center gap-x-2 gap-y-1 font-body text-ink-muted"
             style={{ fontSize: "var(--text-body-sm)" }}
             aria-label="Breadcrumb"
           >
@@ -124,7 +128,7 @@ export default async function ProductPage({ params }: Props) {
           />
         </div>
 
-        <div className="lg:order-2">
+        <div className="order-1 lg:order-2">
           <ProductGallery images={product.images} name={product.name} />
         </div>
       </div>
