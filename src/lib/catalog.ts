@@ -150,6 +150,50 @@ export const getHeroSlides = cache(async (): Promise<HeroSlide[]> => {
   return data as HeroSlide[];
 });
 
+export type Post = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  cover: string | null;
+  body: string;
+  publishedAt: string | null;
+};
+
+type PostRow = {
+  slug: string;
+  title: string;
+  excerpt: string | null;
+  cover: string | null;
+  body: string | null;
+  published_at: string | null;
+};
+
+const toPost = (r: PostRow): Post => ({
+  slug: r.slug,
+  title: r.title,
+  excerpt: r.excerpt ?? "",
+  cover: r.cover,
+  body: r.body ?? "",
+  publishedAt: r.published_at,
+});
+
+export const getPosts = cache(async (): Promise<Post[]> => {
+  const db = createPublicClient();
+  const { data, error } = await db
+    .from("posts")
+    .select("slug,title,excerpt,cover,body,published_at")
+    .eq("is_active", true)
+    .order("published_at", { ascending: false });
+
+  if (error) throw new Error(`getPosts: ${error.message}`);
+  return (data as PostRow[]).map(toPost);
+});
+
+export async function getPost(slug: string): Promise<Post | undefined> {
+  const posts = await getPosts();
+  return posts.find((p) => p.slug === slug);
+}
+
 /** Site settings as a plain key/value map (WhatsApp number, templates, marquee). */
 export const getSettings = cache(async (): Promise<Record<string, string>> => {
   const db = createPublicClient();
