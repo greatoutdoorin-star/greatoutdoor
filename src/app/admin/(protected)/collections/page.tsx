@@ -11,6 +11,62 @@ type Row = {
   is_active: boolean;
 };
 
+/** Lowercase, hyphenated, URL-safe. Used when the slug field is left blank. */
+function slugify(input: string) {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+async function addCollection(formData: FormData) {
+  "use server";
+
+  const db = await createAuthClient();
+
+  const name = String(formData.get("new_name") ?? "").trim();
+  if (!name) throw new Error("Name is required");
+
+  const slug = slugify(String(formData.get("new_slug") ?? "") || name);
+  if (!slug) throw new Error("Could not derive a URL slug from that name");
+
+  const { count } = await db
+    .from("collections")
+    .select("*", { count: "exact", head: true });
+
+  const { error } = await db.from("collections").insert({
+    name,
+    slug,
+    sort_order: (count ?? 0) + 1,
+    is_active: true,
+  });
+
+  if (error) {
+    // Unique violation on slug — the friendliest failure to explain.
+    if (error.code === "23505") {
+      throw new Error(`A collection with the slug "${slug}" already exists`);
+    }
+    throw new Error(error.message);
+  }
+
+  revalidatePath("/", "layout");
+}
+
+async function deleteCollection(formData: FormData) {
+  "use server";
+
+  const db = await createAuthClient();
+  const id = String(formData.get("delete_id") ?? "");
+
+  // Products reference collections with ON DELETE SET NULL, so removing a
+  // collection orphans its products rather than deleting them.
+  const { error } = await db.from("collections").delete().eq("id", id);
+  if (error) throw new Error(error.message);
+
+  revalidatePath("/", "layout");
+}
+
 async function saveCollections(formData: FormData) {
   "use server";
 
@@ -134,6 +190,102 @@ export default async function AdminCollectionsPage() {
           Save collections
         </button>
       </form>
+
+      {/* Add ------------------------------------------------------------ */}
+      <form
+        action={addCollection}
+        className="mt-14 max-w-3xl border-t border-hairline pt-8"
+      >
+        <h2 style={{ fontSize: "var(--text-h2)" }}>Add a collection</h2>
+        <p
+          className="mt-2 font-body text-ink-muted"
+          style={{ fontSize: "var(--text-body-sm)" }}
+        >
+          It appears in the sidebar once it has at least one active product.
+        </p>
+
+        <div className="mt-5 grid gap-4 sm:grid-cols-[1fr_1fr_auto]">
+          <div>
+            <label
+              className="mb-2 block font-body text-ink-muted"
+              style={{ fontSize: "var(--text-body-sm)" }}
+              htmlFor="new_name"
+            >
+              Name
+            </label>
+            <input
+              id="new_name"
+              name="new_name"
+              required
+              placeholder="Loungers"
+              className={field}
+            />
+          </div>
+
+          <div>
+            <label
+              className="mb-2 block font-body text-ink-muted"
+              style={{ fontSize: "var(--text-body-sm)" }}
+              htmlFor="new_slug"
+            >
+              URL slug (optional)
+            </label>
+            <input
+              id="new_slug"
+              name="new_slug"
+              placeholder="loungers"
+              pattern="[a-z0-9\-]*"
+              title="Lowercase letters, numbers and hyphens only"
+              className={field}
+            />
+          </div>
+
+          <button
+            type="submit"
+            className="self-end bg-ink px-8 py-3 font-display font-semibold text-white transition-colors hover:bg-accent"
+          >
+            Add
+          </button>
+        </div>
+      </form>
+
+      {/* Remove --------------------------------------------------------- */}
+      {collections.length > 0 && (
+        <form
+          action={deleteCollection}
+          className="mt-14 max-w-3xl border-t border-hairline pt-8"
+        >
+          <h2 style={{ fontSize: "var(--text-h2)" }}>Remove a collection</h2>
+          <p
+            className="mt-2 font-body text-ink-muted"
+            style={{ fontSize: "var(--text-body-sm)" }}
+          >
+            Products in it are kept, but become uncategorised — reassign them
+            from the Products screen afterwards.
+          </p>
+
+          <div className="mt-5 flex max-w-md gap-3">
+            <select
+              name="delete_id"
+              aria-label="Collection to remove"
+              className={field}
+            >
+              {collections.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.name} ({counts[c.id]} product
+                  {counts[c.id] === 1 ? "" : "s"})
+                </option>
+              ))}
+            </select>
+            <button
+              type="submit"
+              className="shrink-0 border border-red-300 px-6 font-display font-semibold text-red-700 transition-colors hover:bg-red-50"
+            >
+              Delete
+            </button>
+          </div>
+        </form>
+      )}
     </div>
   );
 }
