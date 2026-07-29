@@ -14,7 +14,17 @@ export type Product = {
  * hover; here that slot becomes the WhatsApp enquiry, which is this site's
  * only conversion action.
  */
-export default function ProductCard({ product }: { product: Product }) {
+export default function ProductCard({
+  product,
+  sizes = "(max-width: 640px) 80vw, (max-width: 1023px) 45vw, 22vw",
+}: {
+  product: Product;
+  /**
+   * Overridden where the card sits in a narrower column than the standard
+   * four-up row, so next/image picks a source matched to the rendered size.
+   */
+  sizes?: string;
+}) {
   const enquiryHref = productEnquiryLink({
     name: product.name,
     price: formatPrice(product.price),
@@ -23,13 +33,15 @@ export default function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="group">
-      <div className="relative aspect-square w-full overflow-hidden">
+      {/* 5:6 portrait — the live theme renders these cards at
+          padding-top: 120%, measured from its markup, not eyeballed. */}
+      <div className="relative aspect-[5/6] w-full overflow-hidden">
         <Link href={`/products/${product.slug}`}>
           <Image
             src={product.image}
             alt={product.name}
             fill
-            sizes="(max-width: 640px) 80vw, (max-width: 1023px) 45vw, 22vw"
+            sizes={sizes}
             className="object-contain"
           />
         </Link>
