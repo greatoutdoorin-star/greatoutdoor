@@ -125,6 +125,17 @@ body::-webkit-scrollbar,
   padding-top: calc(4rem + var(--announcement-h));
 }
 
+/*
+  Mobile header offset.
+
+  Written here rather than as `top-[var(--announcement-h)]` because Tailwind v4
+  emits no class for that arbitrary value — the header ended up with no `top`
+  at all and floated out of position.
+*/
+.site-header--offset {
+  top: var(--announcement-h);
+}
+
 @media (min-width: 1024px) {
   .has-announcement {
     padding-top: var(--announcement-h);

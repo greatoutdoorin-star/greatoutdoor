@@ -88,9 +88,15 @@ export default function Sidebar({
   return (
     <>
       {/* Mobile top bar — only rendered below lg */}
+      {/*
+        `top` is set by the .site-header / .has-announcement rules in
+        globals.css rather than a Tailwind arbitrary value: Tailwind v4 does
+        not emit a class for top-[var(--announcement-h)], which left the header
+        with no top offset at all.
+      */}
       <header
-        className={`fixed inset-x-0 z-40 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-5 lg:hidden ${
-          hasAnnouncement ? "top-[var(--announcement-h)]" : "top-0"
+        className={`site-header fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-5 lg:hidden ${
+          hasAnnouncement ? "site-header--offset" : ""
         }`}
       >
         <Link href="/" aria-label={SITE.name}>
