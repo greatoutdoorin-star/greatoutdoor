@@ -1,0 +1,940 @@
+[
+  {
+    "slug": "honey-textured-armchair",
+    "name": "Honey Armchair",
+    "description": "Where form meets function, this wicker armchair from Great Outdoor brings understated charm to your alfresco setup. Its classic cane texture is handwoven with care, creating a breezy, open weave that feels light yet grounded. A warm terracotta cushion adds an earthy pop, while the contoured frame offers comfort that invites you to linger longer. Weather-resistant and thoughtfully designed, it's as practical as it is pretty—perfect for morning coffees, evening conversations, or simply doing nothing at all.",
+    "price": 14200,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 62cm X 67cm x 87cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Arabica",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/honey-textured-armchair-1.webp",
+      "/products/honey-textured-armchair-2.webp",
+      "/products/honey-textured-armchair-3.webp",
+      "/products/honey-textured-armchair-4.webp"
+    ]
+  },
+  {
+    "slug": "ivory-knotted-chair-table-set",
+    "name": "Seahorse Patio Sofa",
+    "description": "Turn your outdoor space into a private retreat with this stunning wicker sofa from Great Outdoor. Designed for sun-drenched days and starlit evenings, this two-seater brings the charm of a resort straight to your backyard. With its handwoven wicker finish and ultra-comfy cushions (available in any color to match your vibe), it’s the perfect mix of style and snuggle. Rain or shine, this weather-proof beauty is built to last and made to lounge.",
+    "price": 34000,
+    "collection": "sofas",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 128cm X 70cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/ivory-knotted-chair-table-set-1.webp",
+      "/products/ivory-knotted-chair-table-set-2.webp",
+      "/products/ivory-knotted-chair-table-set-3.webp",
+      "/products/ivory-knotted-chair-table-set-4.webp"
+    ]
+  },
+  {
+    "slug": "dark-curved-hourglass-table",
+    "name": "Drift Brown Table",
+    "description": "This round wicker table from Great Outdoor is proof that small pieces can make a big impact. Its hourglass silhouette brings a sculptural flair, while the deep brown weave adds warmth and richness to any corner. This table adds instant style and function to your setup. Made from durable, weather-proof materials, it’s ready to brave the elements and look good doing it. A perfect blend of cane furniture charm and modern outdoor living, this piece is the finishing touch your patio didn’t know it needed.",
+    "price": 12500,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 60cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/dark-curved-hourglass-table-1.webp",
+      "/products/dark-curved-hourglass-table-2.webp",
+      "/products/dark-curved-hourglass-table-3.webp"
+    ]
+  },
+  {
+    "slug": "flared-base-round-table",
+    "name": "Drift Seashell Table",
+    "description": "Inspired by misty mornings and soft breezes, this cane-woven table is a perfect blend of serenity and style. Crafted for the outdoors, it stands strong against changing weather while bringing warmth and charm to your patio setup. Low-maintenance and customizable to your space, it’s where timeless elegance meets everyday functionality.",
+    "price": 12500,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 60cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/flared-base-round-table-1.webp",
+      "/products/flared-base-round-table-2.webp",
+      "/products/flared-base-round-table-3.webp"
+    ]
+  },
+  {
+    "slug": "glass-top-round-table",
+    "name": "Cove Table",
+    "description": "Designed to stand out while blending in, this round wicker side table from Great Outdoor brings a fresh, modern edge to your outdoor setup. Wrapped in a light cane-style weave and finished with a sleek glass top, it’s perfect for holding your morning brew, evening drinks, or a small plant you love. The clean, barrel-like silhouette adds a sculptural feel, making it as decorative as it is functional. Built from durable, weather-proof materials, it’s made to handle the outdoors rain or shine. Whether you’re styling a balcony corner or pairing it with your favorite lounge chair, this piece is a subtle showstopper in any patio furniture or wicker furniture collection.",
+    "price": 11000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 60cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Seashell",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/glass-top-round-table-1.webp",
+      "/products/glass-top-round-table-2.webp",
+      "/products/glass-top-round-table-3.webp"
+    ]
+  },
+  {
+    "slug": "lower-arch-square-table",
+    "name": "Terra Table",
+    "description": "Handwoven in a natural cane finish, it features a beautifully detailed base with an arched design and an additional lower shelf for added storage or display. Its compact square top offers plenty of space for meals, drinks, or décor, making it perfect for patios, balconies, or garden nooks. Crafted from durable, weather-proof materials, this piece blends the best of cane furniture craftsmanship with the reliability of modern outdoor furniture. Lightweight, stylish, and easy to maintain. This square wicker table from Great Outdoor is a charming addition to any outdoor space.",
+    "price": 16000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 80cm X 80cm x 72cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Arabica",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/lower-arch-square-table-1.webp",
+      "/products/lower-arch-square-table-2.webp",
+      "/products/lower-arch-square-table-3.webp"
+    ]
+  },
+  {
+    "slug": "woven-round-table-with-intricate-sides",
+    "name": "Croissant Table",
+    "description": "Add a touch of character to your outdoor space with woven round table. With its open lattice design and rich, earthy tone, this table brings a warm, textured feel that fits right into any setting from a cozy balcony corner to a sunlit garden. The tapered legs and handcrafted detailing give it just the right amount of charm and elegance. Made from sturdy, weather-proof materials, it's built to last through every season. Whether you're hosting friends or enjoying a quiet morning tea, this piece blends the timeless appeal of cane furniture with the everyday ease of modern outdoor furniture.",
+    "price": 11000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 60cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Cappuccino",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/woven-round-table-with-intricate-sides-1.webp",
+      "/products/woven-round-table-with-intricate-sides-2.webp",
+      "/products/woven-round-table-with-intricate-sides-3.webp"
+    ]
+  },
+  {
+    "slug": "round-wicker-table",
+    "name": "Nest Table",
+    "description": "Bring Charm to your outdoor space with this beautifully crafted round wicker table from Great Outdoor. Made from durable, weather-proof materials, it’s built to withstand the elements while adding a warm, natural touch to your patio furniture setup. The airy cane weave and curved legs give it a light, inviting feel, while the lower shelf adds a touch of functionality perfect for storing planters, or outdoor essentials. Whether you're styling a garden nook, balcony, or backyard lounge, this versatile piece blends classic cane furniture aesthetics with everyday ease. Lightweight, easy to care for, and full of character it’s a must-have in your outdoor furniture collection.",
+    "price": 16000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 80cm X 80cm x 72cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Seashell",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/round-wicker-table-1.webp",
+      "/products/round-wicker-table-2.webp",
+      "/products/round-wicker-table-3.webp"
+    ]
+  },
+  {
+    "slug": "breeze-rattan-centrepiece",
+    "name": "Cafetta Table",
+    "description": "This woven coffee table from Great Outdoor is designed to bring comfort and convenience to your everyday outdoor moments. Made with durable, weather-proof materials, it’s a perfect addition to your patio furniture or outdoor furniture setup. The natural cane texture and classic wicker weave give it a warm, laid-back vibe, while the lower shelf adds practical storage for books, décor, or extra cushions. Whether you're styling a balcony, garden, or poolside lounge, this wicker furniture piece blends beautifully with any space. Built to last, easy to maintain, and made for all seasons it's everything you want in cane furniture and more.",
+    "price": 13000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions",
+      "L x B x H: 90cm X 60cm x 45cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/breeze-rattan-centrepiece-1.webp",
+      "/products/breeze-rattan-centrepiece-2.webp",
+      "/products/breeze-rattan-centrepiece-3.webp"
+    ]
+  },
+  {
+    "slug": "countryside-knotted-armchair-brown",
+    "name": "Refuge Brown Chair",
+    "description": "Made with all-weather wicker in a rich chocolate-brown tone, its tightly handwoven design speaks to durability without sacrificing style. The gently rounded backrest and subtly flared arms offer a snug, cocoon-like feel, making it perfect for long, unhurried moments outdoors. Lightweight yet sturdy, it’s easy to move around your space from sunlit patios to shaded balconies. Add a cushion, a throw, or keep it minimalist its timeless silhouette makes it a versatile piece that blends in and stands out, all at once.",
+    "price": 12500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 65cm X 67cm x 87cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/countryside-knotted-armchair-brown-1.webp",
+      "/products/countryside-knotted-armchair-brown-2.webp",
+      "/products/countryside-knotted-armchair-brown-3.webp",
+      "/products/countryside-knotted-armchair-brown-4.webp",
+      "/products/countryside-knotted-armchair-brown-5.webp"
+    ]
+  },
+  {
+    "slug": "outdoor-tub-chair",
+    "name": "Tub Chair",
+    "description": "Bring a touch of effortless charm to your space with this beautifully crafted open-weave chair from Great Outdoor. Designed with a curved back and airy cane-style pattern, it adds lightness and elegance to any setting. The warm terracotta cushion offers a soft, cozy seat perfect for relaxed mornings or evening unwinds. Durable, weather-resistant, and easy to care for, it’s ideal for patios, balconies, or even indoor corners that need a stylish upgrade. Simple, elegant, and made for everyday comfort.",
+    "price": 14500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 73cm X 64cm x 82cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/outdoor-tub-chair-1.webp",
+      "/products/outdoor-tub-chair-2.webp",
+      "/products/outdoor-tub-chair-3.webp",
+      "/products/outdoor-tub-chair-4.webp"
+    ]
+  },
+  {
+    "slug": "brown-knotted-armchair",
+    "name": "Knotted Armchair",
+    "description": "Designed for those who appreciate the little luxuries of outdoor living, this elegant chair from Great Outdoor balances comfort, durability, and style. Wrapped in rich brown cane weave and topped with a soft terracotta cushion, it instantly warms up any space. The gently curved back and armrests cradle you in comfort, making it perfect for everything .Built to withstand the elements and light enough to move, it’s the kind of piece that fits effortlessly into any look and into your everyday routine.",
+    "price": 14500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 70cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/brown-knotted-armchair-1.webp",
+      "/products/brown-knotted-armchair-2.webp",
+      "/products/brown-knotted-armchair-3.webp",
+      "/products/brown-knotted-armchair-4.webp",
+      "/products/brown-knotted-armchair-5.webp"
+    ]
+  },
+  {
+    "slug": "luna-curve-chair",
+    "name": "Luna Curve Chair",
+    "description": "Gracefully designed with a rounded silhouette and refined weave, this elegant chair from Great Outdoor brings effortless charm to any setting. The soft, earthy tones paired with plush terracotta cushions offer both comfort and sophistication. Ideal for quiet moments outdoors, it’s crafted to withstand the elements while adding a touch of timeless style to your patio, balcony, or garden retreat.",
+    "price": 22500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 80cm X 90cm x 90cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Seashell",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/luna-curve-chair-1.webp",
+      "/products/luna-curve-chair-2.webp",
+      "/products/luna-curve-chair-3.webp",
+      "/products/luna-curve-chair-4.webp",
+      "/products/luna-curve-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "ivory-knotted-armchair",
+    "name": "Seahorse Chair",
+    "description": "Crafted with a warm, handwoven finish and topped with a cozy, sunset-orange cushion, it’s the kind of seat that makes you want to slow down and stay a little longer. The curved back hugs you just right, offering comfort without compromise. It’s weather-friendly, low on maintenance, and easy to make your own. Perfect for balconies, patios, or that little corner you've been meaning to make special.",
+    "price": 18000,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 66cm X 70cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/ivory-knotted-armchair-1.webp",
+      "/products/ivory-knotted-armchair-2.webp",
+      "/products/ivory-knotted-armchair-3.webp",
+      "/products/ivory-knotted-armchair-4.webp",
+      "/products/ivory-knotted-armchair-5.webp"
+    ]
+  },
+  {
+    "slug": "half-round-comfort-chair",
+    "name": "Croissant Chair",
+    "description": "This cozy piece from Great Outdoor is where artful design meets everyday comfort. With its open-weave pattern and rounded frame, this chair brings a breezy, modern twist to classic cane furniture. The bold, terracotta cushions add warmth and style, inviting you to curl up with a book, sip something chilled, or just enjoy the quiet. It’s sturdy, weather-resistant, and made to handle all your outdoor moods from sunny afternoons to starry evenings. Whether placed on a patio, balcony, or under your favorite tree, it’s that one spot you’ll keep coming back to.",
+    "price": 21000,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 80cm X 90cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Cappuccino",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/half-round-comfort-chair-1.webp",
+      "/products/half-round-comfort-chair-2.webp",
+      "/products/half-round-comfort-chair-3.webp",
+      "/products/half-round-comfort-chair-4.webp",
+      "/products/half-round-comfort-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "countryside-knotted-armchair",
+    "name": "Countryside Armchair",
+    "description": "Simple, sturdy, and effortlessly stylish this single-seater from Great Outdoor is designed for everyday ease. With its high back and curved arms, it offers a snug and supportive spot to unwind, whether you're catching the sunrise or settling in with a book. The handwoven cane texture adds a natural, earthy feel, while the rust-toned cushion brings a warm pop of color. Weather-resistant and low maintenance, it’s made to live beautifully through every season. Place it on your balcony, garden, or patio it’s that versatile chair that fits right in, wherever you need a moment of calm.",
+    "price": 14200,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 62cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Seashell",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/countryside-knotted-armchair-1.webp",
+      "/products/countryside-knotted-armchair-2.webp",
+      "/products/countryside-knotted-armchair-3.webp",
+      "/products/countryside-knotted-armchair-4.webp"
+    ]
+  },
+  {
+    "slug": "bohemian-vintage-chair",
+    "name": "Bohemian Vintage Chair",
+    "description": "Elevate your outdoor spaces with this artisanal chair, featuring a meticulously handmade aluminium frame and hand-woven cane in an elegant check pattern. Designed for supreme comfort and optimal posture, its rust-free and lightweight construction, enhanced with a wood-polished finish, makes it a standout choice for balconies, gardens, and patios. Perfectly blending craftsmanship with durability, it brings both style and functionality to any setting.",
+    "price": 14500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 48cm X 48cm x 83cm",
+      "Wooden Finish on 100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Zebra",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/bohemian-vintage-chair-1.webp",
+      "/products/bohemian-vintage-chair-2.webp",
+      "/products/bohemian-vintage-chair-3.webp",
+      "/products/bohemian-vintage-chair-4.webp",
+      "/products/bohemian-vintage-chair-5.webp",
+      "/products/bohemian-vintage-chair-6.webp"
+    ]
+  },
+  {
+    "slug": "urban-filter-chair",
+    "name": "Urban Filter Chair",
+    "description": "Hand-woven PE rope with an aluminum frame finished with a wooden polish, this chair is not only rust-free but also lightweight. Perfect for transforming gardens and patios into chic retreats, it is an essential piece for any stylish outdoor setup.",
+    "price": 15500,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [
+      "Dimensions L x B x H: 66cm X 63cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/urban-filter-chair-1.webp",
+      "/products/urban-filter-chair-2.webp",
+      "/products/urban-filter-chair-3.webp",
+      "/products/urban-filter-chair-4.webp",
+      "/products/urban-filter-chair-5.webp",
+      "/products/urban-filter-chair-6.webp",
+      "/products/urban-filter-chair-7.webp",
+      "/products/urban-filter-chair-8.webp"
+    ]
+  },
+  {
+    "slug": "regal-charm-chair",
+    "name": "Regal Chair",
+    "description": "Crafted with durable PE cane, this handmade chair complements garden areas and poolside settings effortlessly. Its classic silhouette, ample cushion space, and sturdy structure ensure longevity and resilience against outdoor elements, making it a reliable companion for years of enjoyment.",
+    "price": 11500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 45cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": "Cushion",
+    "variants": [
+      "Without Cushion",
+      "With Seat Cushion only"
+    ],
+    "images": [
+      "/products/regal-charm-chair-1.webp",
+      "/products/regal-charm-chair-2.webp",
+      "/products/regal-charm-chair-3.webp",
+      "/products/regal-charm-chair-4.webp",
+      "/products/regal-charm-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "willow-canopy-swing",
+    "name": "Willow Swing",
+    "description": "Enhance your outdoor space with this expertly crafted cane swing, designed for both style and durability. Its robust cane structure withstands heat and dust, making it suitable for any weather condition. Perfect for patios, gardens, and balconies, this swing provides a relaxing retreat with minimal stress. It features a removable cushion for easy maintenance during harsh weather and supports up to 120 kg, with added spring support for extra comfort.",
+    "price": 25000,
+    "collection": "additions",
+    "material": "Cane",
+    "specs": [],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/willow-canopy-swing-1.webp",
+      "/products/willow-canopy-swing-2.webp",
+      "/products/willow-canopy-swing-3.webp",
+      "/products/willow-canopy-swing-4.webp",
+      "/products/willow-canopy-swing-5.webp",
+      "/products/willow-canopy-swing-6.webp"
+    ]
+  },
+  {
+    "slug": "nomadic-table",
+    "name": "Nomadic Table",
+    "description": "Crafted from PE cane, this table is an ideal addition to your patio furniture set and other outdoor spaces. Designed to endure heat and dust, it ensures both durability and longevity. Easy to maintain, it can be wiped clean with a damp cloth to remove dust or spills. Customizable based on size, cane color, and tabletop shape, it can be tailored to perfectly fit your needs.",
+    "price": 16000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 76cm X 76cm x 70cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/nomadic-table-1.webp",
+      "/products/nomadic-table-2.webp",
+      "/products/nomadic-table-3.webp"
+    ]
+  },
+  {
+    "slug": "classic-mesh-chair",
+    "name": "Classic Mesh Chair",
+    "description": "This durable outdoor cane chair is crafted with a robust aluminum frame and high-quality cane, designed to withstand the elements. Its weather-resistant construction ensures longevity, while the comfortable seating provides a relaxing experience. Easy to clean and reposition, this chair is perfect for enhancing your patio, garden, or balcony with both practicality and style.",
+    "price": 13000,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 55cm X 48cm x 88cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/classic-mesh-chair-1.webp",
+      "/products/classic-mesh-chair-2.webp",
+      "/products/classic-mesh-chair-3.webp",
+      "/products/classic-mesh-chair-4.webp",
+      "/products/classic-mesh-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "vintage-majestic-chair",
+    "name": "Vintage Majestic Chair",
+    "description": "This cane chair marries rustic charm with modern efficiency, providing outstanding comfort and support. Designed to resist UV rays, dust, and heat, it’s effortless to clean with a damp cloth and easy to move. Ideal for enhancing your garden furniture collection and perfect for any outdoor setting.",
+    "price": 10500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 53cm X 45cm x 77cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/vintage-majestic-chair-1.webp",
+      "/products/vintage-majestic-chair-2.webp",
+      "/products/vintage-majestic-chair-3.webp",
+      "/products/vintage-majestic-chair-4.webp"
+    ]
+  },
+  {
+    "slug": "rustic-braided-bar-chair",
+    "name": "Rustic Bar Chair",
+    "description": "Featuring PE rope and aluminum legs with a wood-like finish, this chair instantly elevates bar setups. Rust-free and easy to clean, it's ideal for outdoor use. Perfect for creating an outdoor haven by the poolside, in open yards, or on rooftop bars. These patio rope chairs are ideal for enhancing your space's aesthetics.",
+    "price": 10500,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [
+      "Dimensions L x B x H: 45cm X 45cm x 106cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/rustic-braided-bar-chair-1.webp",
+      "/products/rustic-braided-bar-chair-2.webp",
+      "/products/rustic-braided-bar-chair-3.webp",
+      "/products/rustic-braided-bar-chair-4.webp",
+      "/products/rustic-braided-bar-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "check-mate-table",
+    "name": "Check & Mate Table",
+    "description": "Woven from top to bottom, this PE cane outdoor table adds elegance to your garden furniture collection. It withstands UV rays, dust, and heat, is easy to clean with a damp cloth, and can be effortlessly repositioned. Ideal for poolside areas and patios, it creates a stylish contemporary outdoor setup. Add a glass top for a sleek finish and enhanced usability.",
+    "price": 12500,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 60cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "7mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/check-mate-table-1.webp",
+      "/products/check-mate-table-2.webp",
+      "/products/check-mate-table-3.webp",
+      "/products/check-mate-table-4.webp",
+      "/products/check-mate-table-5.webp"
+    ]
+  },
+  {
+    "slug": "woven-refuge-chair",
+    "name": "Refuge Arabica Chair",
+    "description": "This cane chair combines rustic charm with modern functionality, offering exceptional comfort and support. Designed to endure UV rays, dust, and heat, it’s easy to clean with a damp cloth and simple to move. A perfect addition to your garden furniture collection.",
+    "price": 12500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 45cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/woven-refuge-chair-1.webp",
+      "/products/woven-refuge-chair-2.webp",
+      "/products/woven-refuge-chair-3.webp",
+      "/products/woven-refuge-chair-4.webp",
+      "/products/woven-refuge-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "wild-stripes-bar-chair",
+    "name": "Wild Stripes Bar Chair",
+    "description": "Made with a dual pattern, this cane chair displays the classic black and white design with a hint of chicness. Its aluminum legs provide perfect sturdiness with a sophisticated wood-like finish. Rust-free and stain-resistant, this chair is easy to clean and ideal for outdoor use, effortlessly enhancing any bar setup. Perfect for those looking to create an outdoor haven near the poolside, in open yards, or as rooftop bar furniture.",
+    "price": 13500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 45cm X 45cm x 106cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/wild-stripes-bar-chair-1.webp",
+      "/products/wild-stripes-bar-chair-2.webp",
+      "/products/wild-stripes-bar-chair-3.webp",
+      "/products/wild-stripes-bar-chair-4.webp",
+      "/products/wild-stripes-bar-chair-5.webp",
+      "/products/wild-stripes-bar-chair-6.webp"
+    ]
+  },
+  {
+    "slug": "crescent-comfort-chair",
+    "name": "Crescent Chair",
+    "description": "Inspired by gypsy patterns and boho style, this cane chair with an aluminum frame features a wood-like finish that adds a touch of class to outdoor areas such as patios, yards, and balconies. The PE cane can sustain harsh weather conditions and can be kept outdoors 24/7 without worrying about heat, rain, or dust. Clean it with a damp cloth, and you’re good to go. These chairs can be paired with our waterproof table for an attractive outdoor furniture set.",
+    "price": 9500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 55cm X 48cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/crescent-comfort-chair-1.webp",
+      "/products/crescent-comfort-chair-2.webp",
+      "/products/crescent-comfort-chair-3.webp",
+      "/products/crescent-comfort-chair-4.webp",
+      "/products/crescent-comfort-chair-5.webp",
+      "/products/crescent-comfort-chair-6.webp",
+      "/products/crescent-comfort-chair-7.webp"
+    ]
+  },
+  {
+    "slug": "tinted-haven-chair",
+    "name": "Tinted Chair",
+    "description": "Made with PE rope and aluminum frame with off white powder coating finish, this chair is both sturdy and stylish, making it ideal for patios, balconies, and vacation homes. It features zip-able, waterproof cushions for added convenience and comfort. The rust-proof rope chair requires minimal maintenance and is designed to endure harsh sunlight and dust, ensuring long-lasting durability.",
+    "price": 15500,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [
+      "Dimensions L x B x H: 60cm X 55cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/tinted-haven-chair-1.webp",
+      "/products/tinted-haven-chair-2.webp",
+      "/products/tinted-haven-chair-3.webp",
+      "/products/tinted-haven-chair-4.webp",
+      "/products/tinted-haven-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "mystic-courtyard-chair",
+    "name": "Mystic Chair",
+    "description": "Inspired by the mystics of English culture, this rope chair is made with high-quality PE rope and an aluminum frame. This piece of garden furniture is both sturdy and stylish, making it perfect for yards, home gardens, and vacation homes. It features quick zip and waterproof cushions for added convenience and comfort. This rope chair is rust-proof and requires minimal maintenance, ensuring it withstands harsh sunlight and dust without any damage.",
+    "price": 14000,
+    "collection": "chairs",
+    "material": "Rope",
+    "specs": [
+      "Dimensions L x B x H: 58cm X 53cm x 76cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/mystic-courtyard-chair-1.webp",
+      "/products/mystic-courtyard-chair-2.webp",
+      "/products/mystic-courtyard-chair-3.webp",
+      "/products/mystic-courtyard-chair-4.webp",
+      "/products/mystic-courtyard-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "zebra-chic-chair",
+    "name": "Zebra Chic Chair",
+    "description": "Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane chair adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Luxe Sofa for an ideal garden set.",
+    "price": 12200,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 50cm X 55cm x 86cm",
+      "100% Aluminum Frame with Wooden Polish",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - White & Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": "Zebra Weave",
+    "variants": [
+      "Signal White & Graphite Black",
+      "Honeywicker & Graphite Black"
+    ],
+    "images": [
+      "/products/zebra-chic-chair-1.webp",
+      "/products/zebra-chic-chair-2.webp",
+      "/products/zebra-chic-chair-3.webp",
+      "/products/zebra-chic-chair-4.webp",
+      "/products/zebra-chic-chair-5.webp",
+      "/products/zebra-chic-chair-6.webp",
+      "/products/zebra-chic-chair-7.webp",
+      "/products/zebra-chic-chair-8.webp"
+    ]
+  },
+  {
+    "slug": "zebra-savvy-table",
+    "name": "Zebra Savvy Table",
+    "description": "Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane sofa adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Zen Chairs and Zebra Luxe Sofa for a contemporary waterproof furniture set. Customizable from round to square or rectangle, choose from the sizes mentioned below.",
+    "price": 10500,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 55cm X 55cm x 60cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - White & Black Ribbed",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/zebra-savvy-table-1.webp",
+      "/products/zebra-savvy-table-2.webp",
+      "/products/zebra-savvy-table-3.webp",
+      "/products/zebra-savvy-table-4.webp"
+    ]
+  },
+  {
+    "slug": "zebra-zen-chair",
+    "name": "Zebra Zen Chair",
+    "description": "Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane chair adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Luxe Sofa for a contemporary waterproof furniture set.",
+    "price": 11000,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 63cm X 48cm x 80cm",
+      "Wooden Finish on 100%",
+      "Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Zebra",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/zebra-zen-chair-1.webp",
+      "/products/zebra-zen-chair-2.webp",
+      "/products/zebra-zen-chair-3.webp",
+      "/products/zebra-zen-chair-4.webp"
+    ]
+  },
+  {
+    "slug": "zebra-luxe-sofa",
+    "name": "Zebra Luxe Sofa",
+    "description": "Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane sofa adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Zen Cane chairs for an ideal garden set.",
+    "price": 22500,
+    "collection": "sofas",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 129cm X 55cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/zebra-luxe-sofa-1.webp",
+      "/products/zebra-luxe-sofa-2.webp",
+      "/products/zebra-luxe-sofa-3.webp",
+      "/products/zebra-luxe-sofa-4.webp"
+    ]
+  },
+  {
+    "slug": "swirl-haven-table",
+    "name": "Hollow Haven Table",
+    "description": "Made with high-quality and waterproof cane, this table is designed to ensure that it remains sturdy and intact even in harsh weather conditions. This is a perfect addition to the Hallow Haven Chair set. Its well-proportioned design ensures that it is both functional and stylish. This piece adds an extra edgy-swirl to your luxury outdoor furniture haven.",
+    "price": 21000,
+    "collection": "tables",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 76cm X 76cm x 50cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/swirl-haven-table-1.webp",
+      "/products/swirl-haven-table-2.webp",
+      "/products/swirl-haven-table-3.webp"
+    ]
+  },
+  {
+    "slug": "hollow-haven-chair",
+    "name": "Hollow Haven Chair",
+    "description": "A blend of innovative and robust design, this cane-weaved chair is a versatile choice for various outdoor gatherings and can sustain harsh weather conditions. Easy to clean, this cane chair ensures longevity with minimal effort and care. It is ideal for enhancing your patio or deck when paired with our Swirl Haven Table.",
+    "price": 27500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 80cm X 60cm x 80cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/hollow-haven-chair-1.webp",
+      "/products/hollow-haven-chair-2.webp",
+      "/products/hollow-haven-chair-3.webp",
+      "/products/hollow-haven-chair-4.webp",
+      "/products/hollow-haven-chair-5.webp"
+    ]
+  },
+  {
+    "slug": "shino-stackable-chair",
+    "name": "Shino Stackable Chair",
+    "description": "Designed for modern spaces and smart setups, these chairs are made of PE cane, known for its remarkable durability and warranty. Lightweight yet sturdy, they withstand exposure to sunlight without any damage for up to 5 years. Plus, they are stackable for easy storage, freeing up extra space when needed.",
+    "price": 10200,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 55cm X 48cm x 90cm",
+      "100% Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Elegance Brown",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/shino-stackable-chair-1.webp",
+      "/products/shino-stackable-chair-2.webp",
+      "/products/shino-stackable-chair-3.webp",
+      "/products/shino-stackable-chair-4.webp"
+    ]
+  },
+  {
+    "slug": "bohemian-breeze-chair",
+    "name": "Bohemian Chair",
+    "description": "The Bohemian Breeze chair is inspired by the named culture. Made with an aluminum frame and supreme quality cane with a check pattern weave, it is designed to provide full comfort yet an elegant posture to the sitter. The aluminum frame is finished with a wooden polish for the outdoors, making it a rust-free and lightweight chair fit for your balconies, gardens, or patio.",
+    "price": 10500,
+    "collection": "chairs",
+    "material": "Cane",
+    "specs": [
+      "Dimensions L x B x H: 45cm X 43cm x 88cm",
+      "Wooden Finish on 100%",
+      "Aluminum Frame",
+      "Light weight & Rust free",
+      "Weather-proof | Washable",
+      "6mm PE Cane - Zebra",
+      "Five-Year Cane Colour Warranty*"
+    ],
+    "variantLabel": null,
+    "variants": [],
+    "images": [
+      "/products/bohemian-breeze-chair-1.webp",
+      "/products/bohemian-breeze-chair-2.webp",
+      "/products/bohemian-breeze-chair-3.webp",
+      "/products/bohemian-breeze-chair-4.webp",
+      "/products/bohemian-breeze-chair-5.webp",
+      "/products/bohemian-breeze-chair-6.webp",
+      "/products/bohemian-breeze-chair-7.webp"
+    ]
+  }
+]

@@ -1,0 +1,835 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Material (product.metafields.custom.material),Product Specifications (product.metafields.custom.product_specifications),Backrest type (product.metafields.shopify.backrest-type),Color (product.metafields.shopify.color-pattern),Furniture/Fixture features (product.metafields.shopify.furniture-fixture-features),Furniture/Fixture material (product.metafields.shopify.furniture-fixture-material),Outdoor furniture items included (product.metafields.shopify.outdoor-furniture-items-included),Plant name (product.metafields.shopify.plant-name),Seat structure (product.metafields.shopify.seat-structure),Seat type (product.metafields.shopify.seat-type),Tabletop shape (product.metafields.shopify.tabletop-shape),Upholstery material (product.metafields.shopify.upholstery-material),Complementary products (product.metafields.shopify--discovery--product_recommendation.complementary_products),Related products (product.metafields.shopify--discovery--product_recommendation.related_products),Related products settings (product.metafields.shopify--discovery--product_recommendation.related_products_display),Search product boosts (product.metafields.shopify--discovery--product_search_boost.queries),Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+honey-textured-armchair,Honey Armchair,"<p><meta charset=""utf-8"">Where form meets function, this wicker armchair from Great Outdoor brings understated charm to your alfresco setup. Its classic cane texture is handwoven with care, creating a breezy, open weave that feels light yet grounded. A warm terracotta cushion adds an earthy pop, while the contoured frame offers comfort that invites you to linger longer. Weather-resistant and thoughtfully designed, it's as practical as it is pretty—perfect for morning coffees, evening conversations, or simply doing nothing at all.</p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"","",true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14200.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/24_b5a073b5-e28f-40f7-b0f1-e5516fa9056f.png?v=1745913789,1,"",false,,,Cane,"• Dimensions L x B x H: 62cm X 67cm x 87cm  
+
+•  100% Aluminum Frame  
+
+• Light weight & Rust free  
+
+• Weather-proof | Washable  
+
+• 7mm PE Cane  - Arabica  
+
+• Five-Year Cane Colour Warranty*",hard,brown,,wicker,,,wicker,hard,,,,,,,,kg,,7000.00,active
+honey-textured-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/25_4d652f98-cc45-447d-8613-32382fcd371b.png?v=1745913788,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+honey-textured-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/26_b4e6d7ee-a7f7-45b8-89c1-51b4b105b9e7.png?v=1745913789,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+honey-textured-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/27_fe61517c-e8ce-4c91-a91c-0a8d74d5a3ed.png?v=1745913788,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-chair-table-set,Seahorse Patio Sofa,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p>Turn your outdoor space into a private retreat with this stunning wicker sofa from Great Outdoor. Designed for sun-drenched days and starlit evenings, this two-seater brings the charm of a resort straight to your backyard. With its handwoven wicker finish and ultra-comfy cushions (available in any color to match your vibe), it’s the perfect mix of style and snuggle. Rain or shine, this weather-proof beauty is built to last and made to lounge.</p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Sofas,"",sofa,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,34000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/50_85dfd274-51f9-41f4-8d4e-7aee0529b8fc.png?v=1744965132,1,"",false,,,Cane,"• Dimensions L x B x H: 128cm X 70cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,brown,shelves,wicker,chairs; sofa; table,,,,,,,,,,,kg,,17000.00,active
+ivory-knotted-chair-table-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/51_013fa4ec-ae3a-4976-bbe0-4bab1adee946.png?v=1744965132,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-chair-table-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/52_a0c4a13c-e25b-4d9e-ab70-ff1747151a84.png?v=1744965132,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-chair-table-set,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/49_de076f7f-998e-4977-9092-33c735198061.png?v=1744965132,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+dark-curved-hourglass-table,Drift Brown Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">This round wicker table from Great Outdoor is proof that small pieces can make a big impact. Its hourglass silhouette brings a sculptural flair, while the deep brown weave adds warmth and richness to any corner. This table adds instant style and function to your setup. Made from durable, weather-proof materials, it’s ready to brave the elements and look good doing it. A perfect blend of cane furniture charm and modern outdoor living, this piece is the finishing touch your patio didn’t know it needed.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,12500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/12_dc5b066b-5182-428b-a501-6a826e935bbf.png?v=1744962966,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 60cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,brown,,wicker,,,,,,,,,,,,kg,,6000.00,active
+dark-curved-hourglass-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/13_7d967e53-fbf5-46eb-96ad-e7b0b995f5b9.png?v=1744962966,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+dark-curved-hourglass-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/7_7e5fb935-6b56-48f2-995a-d31d53486466.png?v=1744962966,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+flared-base-round-table,Drift Seashell Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Inspired by misty mornings and soft breezes, this cane-woven table is a perfect blend of serenity and style. Crafted for the outdoors, it stands strong against changing weather while bringing warmth and charm to your patio setup. Low-maintenance and customizable to your space, it’s where timeless elegance meets everyday functionality.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,12500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/6_1514c404-64f0-4103-9cd7-9b253a9b3099.png?v=1744962901,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 60cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,beige; brown,,wicker,,,,,,,,,,,,kg,,6000.00,active
+flared-base-round-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/5_f5eee84b-1306-416e-9245-29b3fa56c390.png?v=1744962902,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+flared-base-round-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/1_cdbf6c1c-4169-4b82-8910-61c7f6c9e4ec.png?v=1744962901,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+glass-top-round-table,Cove Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Designed to stand out while blending in, this round wicker side table from Great Outdoor brings a fresh, modern edge to your outdoor setup. Wrapped in a light cane-style weave and finished with a sleek glass top, it’s perfect for holding your morning brew, evening drinks, or a small plant you love. The clean, barrel-like silhouette adds a sculptural feel, making it as decorative as it is functional. Built from durable, weather-proof materials, it’s made to handle the outdoors rain or shine. Whether you’re styling a balcony corner or pairing it with your favorite lounge chair, this piece is a subtle showstopper in any patio furniture or wicker furniture collection.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,11000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/33_38081e35-1a20-401c-8ab4-a5a1eb7f02e8.png?v=1744962611,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 60cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Seashell 
+
+• Five-Year Cane Colour Warranty*",,brown,,glass; wicker,,,,,,,,,,,,kg,,5500.00,active
+glass-top-round-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/34_7e3f49f3-6b0d-41a9-bbdb-7fc4622c2952.png?v=1744962613,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+glass-top-round-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/28_98f7dec8-8da5-41e7-9b50-7267d433f032.png?v=1744962613,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+lower-arch-square-table,Terra Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Handwoven in a natural cane finish, it features a beautifully detailed base with an arched design and an additional lower shelf for added storage or display. Its compact square top offers plenty of space for meals, drinks, or décor, making it perfect for patios, balconies, or garden nooks. Crafted from durable, weather-proof materials, this piece blends the best of cane furniture craftsmanship with the reliability of modern outdoor furniture. Lightweight, stylish, and easy to maintain. This square wicker table from Great Outdoor is a charming addition to any outdoor space.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,16000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/47_f4c2a397-1f13-4251-8691-e323748a1ae5.png?v=1744962541,1,"",false,,,Cane,"• Dimensions L x B x H: 80cm X 80cm x 72cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Arabica  
+
+• Five-Year Cane Colour Warranty*",,brown,,wicker,,,,,,,,,,,,kg,,8000.00,active
+lower-arch-square-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/48_c78524d9-c023-4037-96ae-0a75c2f38afd.png?v=1744962541,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+lower-arch-square-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/43.png?v=1744962541,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-round-table-with-intricate-sides,Croissant Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Add a touch of character to your outdoor space with woven round table. With its open lattice design and rich, earthy tone, this table brings a warm, textured feel that fits right into any setting from a cozy balcony corner to a sunlit garden. The tapered legs and handcrafted detailing give it just the right amount of charm and elegance. Made from sturdy, weather-proof materials, it's built to last through every season. Whether you're hosting friends or enjoying a quiet morning tea, this piece blends the timeless appeal of cane furniture with the everyday ease of modern outdoor furniture.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,11000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/41_bc7ea410-a715-468e-964d-e91782340a4a.png?v=1744962423,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 60cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Cappuccino  
+
+• Five-Year Cane Colour Warranty*",,brown,,wicker,,,,,,,,,,,,kg,,5500.00,active
+woven-round-table-with-intricate-sides,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/42_663759a1-60b2-4e13-92d9-66a6df4d7926.png?v=1744962423,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-round-table-with-intricate-sides,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/35_e94647a1-f70d-4a31-b282-c18b52ad1795.png?v=1744962423,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+round-wicker-table,Nest Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Bring Charm to your outdoor space with this beautifully crafted round wicker table from Great Outdoor. Made from durable, weather-proof materials, it’s built to withstand the elements while adding a warm, natural touch to your patio furniture setup. The airy cane weave and curved legs give it a light, inviting feel, while the lower shelf adds a touch of functionality perfect for storing planters, or outdoor essentials. Whether you're styling a garden nook, balcony, or backyard lounge, this versatile piece blends classic cane furniture aesthetics with everyday ease. Lightweight, easy to care for, and full of character it’s a must-have in your outdoor furniture collection.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,16000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/61_59dce28b-2db2-4505-a858-588b5c43bfc4.png?v=1744962308,1,"",false,,,Cane,"• Dimensions L x B x H: 80cm X 80cm x 72cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Seashell
+
+• Five-Year Cane Colour Warranty*",,brown,,wicker,,,,,,,,,,,,kg,,8000.00,active
+round-wicker-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/62_992a8d22-7ca0-4df4-b233-c1e1b36f96be.png?v=1744962308,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+round-wicker-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/59_281bf8ee-1592-42e0-9713-aa7db252e499.png?v=1744962308,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+breeze-rattan-centrepiece,Cafetta Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">This woven coffee table from Great Outdoor is designed to bring comfort and convenience to your everyday outdoor moments. Made with durable, weather-proof materials, it’s a perfect addition to your patio furniture or outdoor furniture setup. The natural cane texture and classic wicker weave give it a warm, laid-back vibe, while the lower shelf adds practical storage for books, décor, or extra cushions. Whether you're styling a balcony, garden, or poolside lounge, this wicker furniture piece blends beautifully with any space. Built to last, easy to maintain, and made for all seasons it's everything you want in cane furniture and more.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,13000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/58_06ac07d7-5654-42af-8cfd-72227ddc69db.png?v=1745935316,1,"",false,,,Cane,"• Dimensions
+L x B x H: 90cm X 60cm x 45cm
+
+•  100% Aluminum Frame
+
+• Light weight & Rust free
+
+• Weather-proof | Washable
+
+• 7mm PE Cane  - Elegance Brown 
+
+• Five-Year Cane Colour Warranty*",,brown,,rattan; wicker,,,,,,,,,,,,kg,,6500.00,active
+breeze-rattan-centrepiece,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/49_863578ec-cead-428b-af44-a68b33d6e9a2.png?v=1745935318,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+breeze-rattan-centrepiece,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/57_8bd5470c-3796-469c-b1f8-a26b6af7248c.png?v=1745935318,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair-brown,Refuge Brown Chair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Made with all-weather wicker in a rich chocolate-brown tone, its tightly handwoven design speaks to durability without sacrificing style. The gently rounded backrest and subtly flared arms offer a snug, cocoon-like feel, making it perfect for long, unhurried moments outdoors. Lightweight yet sturdy, it’s easy to move around your space from sunlit patios to shaded balconies. Add a cushion, a throw, or keep it minimalist its timeless silhouette makes it a versatile piece that blends in and stands out, all at once.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,12500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/19_ade33bda-efaf-49dd-a24e-b6f60e575294.png?v=1744960839,1,"",false,,,Cane,"• Dimensions L x B x H: 65cm X 67cm x 87cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,brown,,wicker,,,wicker,hard,,,,,,,,kg,,6000.00,active
+countryside-knotted-armchair-brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/20_0e24c96c-8d33-4d56-bac6-84d8db45777c.png?v=1744960839,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair-brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/21_b8b325d4-3963-4b4b-86e7-bcb37c042baf.png?v=1744960839,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair-brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/22_60512e4c-9736-4ed7-bec6-bf1dae61ac08.png?v=1744960839,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair-brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/18_d3fb481b-bf8c-4f28-8e25-14801e62f123.png?v=1744960839,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+outdoor-tub-chair,Tub Chair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Bring a touch of effortless charm to your space with this beautifully crafted open-weave chair from Great Outdoor. Designed with a curved back and airy cane-style pattern, it adds lightness and elegance to any setting. The warm terracotta cushion offers a soft, cozy seat perfect for relaxed mornings or evening unwinds. Durable, weather-resistant, and easy to care for, it’s ideal for patios, balconies, or even indoor corners that need a stylish upgrade. Simple, elegant, and made for everyday comfort.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/15_c86e9d11-ff6a-4654-ba60-4b476ddf151d.png?v=1744960690,1,"",false,,,Cane,"• Dimensions L x B x H: 73cm X 64cm x 82cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,brown,,wicker; ceramic,,,grid,upholstered,,,,,,,,kg,,7250.00,active
+outdoor-tub-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/16_cd8197e7-6f55-4879-afb1-d107155dfc03.png?v=1744960690,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+outdoor-tub-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/17_aabb397f-e2fe-4e8b-8093-76a680272f32.png?v=1744960690,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+outdoor-tub-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/14_a89fffe3-33c6-4fb9-9e10-5b1c89078656.png?v=1744960690,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+brown-knotted-armchair,Knotted Armchair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Designed for those who appreciate the little luxuries of outdoor living, this elegant chair from Great Outdoor balances comfort, durability, and style. Wrapped in rich brown cane weave and topped with a soft terracotta cushion, it instantly warms up any space. The gently curved back and armrests cradle you in comfort, making it perfect for everything .Built to withstand the elements and light enough to move, it’s the kind of piece that fits effortlessly into any look and into your everyday routine.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/8_d8e18bd3-b02d-43a6-bfb2-acb345adf2b0.png?v=1744960558,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 70cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,brown,,wicker; fabric,,,solid,upholstered,,,,,,,,kg,,7250.00,active
+brown-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/9_160624a6-0fce-4faf-9fa1-1f4c62f0cf19.png?v=1744960558,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+brown-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/10_77373772-4082-4628-823a-899e1bdad207.png?v=1744960558,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+brown-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/11_89ea829d-2f13-423e-9b7b-6a08b0fdd8de.png?v=1744960558,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+brown-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/7_f7bc9ff9-9159-4d9f-87c6-3903ab391692.png?v=1744960558,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+luna-curve-chair,Luna Curve Chair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Gracefully designed with a rounded silhouette and refined weave, this elegant chair from Great Outdoor brings effortless charm to any setting. The soft, earthy tones paired with plush terracotta cushions offer both comfort and sophistication. Ideal for quiet moments outdoors, it’s crafted to withstand the elements while adding a touch of timeless style to your patio, balcony, or garden retreat.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,22500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/29_f187e28a-b0a0-4c87-9880-146b1d9830aa.png?v=1744960355,1,"",false,,,Cane,"• Dimensions L x B x H: 80cm X 90cm x 90cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Seashell
+
+• Five-Year Cane Colour Warranty*",strap,beige; brown,,wicker; fabric,,,wicker,strap,,,,,,,,kg,,11500.00,active
+luna-curve-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/30_c88d3df5-c33d-4dab-a885-8e43a539a1ff.png?v=1744960355,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+luna-curve-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/31_ba417a63-0f49-4af2-8abc-579d41b72b89.png?v=1744960355,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+luna-curve-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/32_c6359bd7-5614-4038-a259-5f7892595f54.png?v=1744960355,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+luna-curve-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/28_7f9d09c7-ea73-4d87-aa75-c86925210b20.png?v=1744960355,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-armchair,Seahorse Chair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Crafted with a warm, handwoven finish and topped with a cozy, sunset-orange cushion, it’s the kind of seat that makes you want to slow down and stay a little longer. The curved back hugs you just right, offering comfort without compromise. It’s weather-friendly, low on maintenance, and easy to make your own. Perfect for balconies, patios, or that little corner you've been meaning to make special.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,18000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/54_d8e13949-433e-48af-a926-c30190ac5ef0.png?v=1744966788,1,"",false,,,Cane,"• Dimensions L x B x H: 66cm X 70cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,brown,,,,,,upholstered,,polyester,,,,,,kg,,9000.00,active
+ivory-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/53_635a6e29-b219-4ece-a936-398d53bb725e.png?v=1744960147,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/55_47047842-414e-4afe-a400-213c03d23390.png?v=1744960147,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/56_77732451-f3e2-474c-9b48-76845af5b286.png?v=1744960147,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+ivory-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/49_809603d2-1788-4bf7-808d-1680cf41f200.png?v=1744960147,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+half-round-comfort-chair,Croissant Chair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1""> This cozy piece from Great Outdoor is where artful design meets everyday comfort. With its open-weave pattern and rounded frame, this chair brings a breezy, modern twist to classic cane furniture. The bold, terracotta cushions add warmth and style, inviting you to curl up with a book, sip something chilled, or just enjoy the quiet. It’s sturdy, weather-resistant, and made to handle all your outdoor moods from sunny afternoons to starry evenings. Whether placed on a patio, balcony, or under your favorite tree, it’s that one spot you’ll keep coming back to.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,21000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/37_263df841-1640-4570-b643-dcbe4f4b9b95.png?v=1744954333,1,"",false,,,Cane,"• Dimensions L x B x H: 80cm X 90cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Cappuccino  
+
+• Five-Year Cane Colour Warranty*",,brown,,wicker; ceramic,,,solid,upholstered,,,,,,,,kg,,10500.00,active
+half-round-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/38_9fc35061-cc1f-43de-a5d8-a4700d6e9dbe.png?v=1744954353,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+half-round-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/39_32554bcb-17cb-4212-ae1a-440bac22ac90.png?v=1744954363,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+half-round-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/40_330eeef2-693e-40ca-8231-89d49834880d.png?v=1744956674,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+half-round-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/35_ab9aa0a1-578e-4305-b8bb-5fe634510969.png?v=1744956700,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair,Countryside Armchair,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Simple, sturdy, and effortlessly stylish this single-seater from Great Outdoor is designed for everyday ease. With its high back and curved arms, it offers a snug and supportive spot to unwind, whether you're catching the sunrise or settling in with a book. The handwoven cane texture adds a natural, earthy feel, while the rust-toned cushion brings a warm pop of color. Weather-resistant and low maintenance, it’s made to live beautifully through every season. Place it on your balcony, garden, or patio it’s that versatile chair that fits right in, wherever you need a moment of calm.</span></p>",Great Outdoor ,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14200.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/2_8b6ad9f0-3b6c-4bdc-86e7-109a0aef1001.png?v=1744876071,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 62cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Seashell
+
+• Five-Year Cane Colour Warranty*",hard,brown,,wicker,,,solid,hard,,,,,,,,kg,,7000.00,active
+countryside-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/3_b908255e-f2a5-445b-bb95-5f3b712f990b.png?v=1744876092,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/4_eedbabb2-09e5-4b14-986a-0e2aff4c846b.png?v=1744876110,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+countryside-knotted-armchair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/1_f3ef91d3-e73d-4b15-8843-7e9bef643ea5.png?v=1744877477,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+artificial-grass-55mm,Artificial Grass (55mm),"",Great Outdoor ,Home & Garden > Decor > Artificial Flora,"","",false,Title,Default Title,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/download.jpg?v=1742368404,1,"",false,,,,,,green,,,,grass,,,,,,,,,,kg,,,draft
+cushion,Cushion,"",Great Outdoor ,Home & Garden > Decor > Chair & Sofa Cushions,"","",false,Choice of Fabric,VERDE CLARO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-upholstery_f6243882-7019-4d75-b234-2599e6e90e12.png?v=1731571282,1,"",false,,,,,,,,,,,,,,,,,,,,kg,,,draft
+cushion,,,,,,,,,ANIS,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,CONFETTI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,VERDE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BOTELLA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,FORET,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,INDIGO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BOMBAY,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,TURKIS,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,AZUL,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,MARINO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BRISA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,TOFFEE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,ALABASTRO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,SILVER,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,PERLA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BASALTO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,NEGRO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,NATURAL,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BLANCO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,OPTIK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,CAFE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,TERRACOTA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,MARRON,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,FUOCO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,GRANATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,BRASSERIE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,PINK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,GRAPE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,MALVA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,LIMON,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,MANDARINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,AMARILLO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,AZAFRAN,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,TOMATO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+cushion,,,,,,,,,ROJO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-vintage-chair,Bohemian Vintage Chair,"<p><span data-sheets-root=""1"">Elevate your outdoor spaces with this artisanal chair, featuring a meticulously handmade aluminium frame and hand-woven cane in an elegant check pattern. Designed for supreme comfort and optimal posture, its rust-free and lightweight construction, enhanced with a wood-polished finish, makes it a standout choice for balconies, gardens, and patios. Perfectly blending craftsmanship with durability, it brings both style and functionality to any setting.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/9_5dc55302-52d1-419f-88f8-6b49c45220db.png?v=1730883999,1,"",false,,,Cane,"• Dimensions L x B x H: 48cm X 48cm x 83cm 
+
+• Wooden Finish on 100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane - Zebra  
+
+• Five-Year Cane Colour Warranty*",,checkered,,aluminum; wood,,,,,,,,,,,,kg,,6000.00,active
+bohemian-vintage-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/10_6f2b6707-633a-490a-886e-e6d176adabe9.png?v=1730884000,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-vintage-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/11_fdb9f3ac-ec86-46d6-aee9-4a17292486c7.png?v=1730883999,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-vintage-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianVintageChair4.png?v=1723010094,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-vintage-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianVintageChair3.png?v=1723010094,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-vintage-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianVintageChair1.png?v=1723010094,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+arc-lounger,Arc Lounger,"<p><span data-sheets-root=""1"">This wide-seated garden rope chair, with its long knit pattern, provides exceptional comfort and support. Crafted from high-quality PE rope, it is designed for minimal maintenance and easy cleaning. While the waterproof construction ensures durability, we recommend keeping it sheltered from harsh weather to prolong the life of the cushion seat. Ideal for conservatories, this versatile lounger is easy to move and rearrange, effortlessly enhancing your outdoor seating areas.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating,"",lounger,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,false,,,Rope,,,,,,,,,,,,,,,,,kg,,,draft
+vogue-veranda-table,Vogue Veranda Table,"<p><span data-sheets-root=""1"">Perfect for contemporary outdoor spaces, the Vogue Veranda Table stands out with its refined design and versatility. Crafted from durable PE cane, it offers exceptional durability and remains a functional asset for years. Ideal for outdoor patio furniture setups, it features a convenient hole in the center for an umbrella. Pair it with our Shino stackable chairs for a stylish and waterproof outdoor furniture arrangement.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Cane,Ribbed - White (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/VogueVerandaTable4.png?v=1723009289,1,"",false,,,Cane,"• Dimensions
+20cm Depth
+20cm Width
+34cm Height
+25cm Arm Height (from floor)
+17cm Seat Height (from floor)
+
+• Wooden Finish on 100%
+Aluminum Frame
+• Light weight & Rust free
+• Weather-proof | Washable
+• 6mm PE Cane (Zebra Weave in
+Signal White and Graphite
+Black)
+• Five-Year Craftsmanship
+Warranty",,brown; black,,metal,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,draft
+vogue-veranda-table,,,,,,,,,Ribbed - Whitewash (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/VogueVerandaTable3.png?v=1723009289,2,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Ribbed - Honeywicker (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,3,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Ribbed - Graphite Black (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/VogueVerandaTable2.png?v=1723009289,4,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Ribbed - Java Brown (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/VogueVerandaTable1.png?v=1723009289,5,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Ribbed - Cappuccino (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Pulut - Mocca Java (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Pulut - Arabica (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Pulut - Elegance Brown (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+vogue-veranda-table,,,,,,,,,Pulut - Sea Shell (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,kg,,,
+urban-filter-chair,Urban Filter Chair,"<p><span data-sheets-root=""1"">Hand-woven PE rope with an aluminum frame finished with a wooden polish, this chair is not only rust-free but also lightweight. Perfect for transforming gardens and patios into chic retreats, it is an essential piece for any stylish outdoor setup.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,15500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/69.png?v=1730885965,1,"",false,,,Rope,"• Dimensions L x B x H: 66cm X 63cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",mesh,beige; brown; green; black; gray,,aluminum; polyester; wicker; fabric,,,grid,strap,,,,,,,,kg,,6900.00,active
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/71.png?v=1730885966,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/70.png?v=1730885966,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/UrbanFilterChair1.png?v=1723008895,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/UrbanFilterChair3.png?v=1723008895,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/UrbanFilterChair2.png?v=1723008895,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/UrbanFilterChair7.png?v=1723008896,7,"",,,,,,,,,,,,,,,,,,,,,,,,
+urban-filter-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go_1.jpg?v=1742897322,8,"",,,,,,,,,,,,,,,,,,,,,,,,
+regal-charm-chair,Regal Chair,"<p><span data-sheets-root=""1"">Crafted with durable PE cane, this handmade chair complements garden areas and poolside settings effortlessly. Its classic silhouette, ample cushion space, and sturdy structure ensure longevity and resilience against outdoor elements, making it a reliable companion for years of enjoyment.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Cushion,Without Cushion,,,,,,,,'100,0.0,shopify,continue,manual,11500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/44.png?v=1730885159,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 45cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",upholstered,brown,,fabric,,,wicker,upholstered,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/44.png?v=1730885159,kg,,5000.00,active
+regal-charm-chair,,,,,,,,,With Seat Cushion only,,,,,,,,'100,0.0,shopify,continue,manual,12700.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/45.png?v=1730885159,2,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/45.png?v=1730885159,kg,,5600.00,
+regal-charm-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/46.png?v=1740751351,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+regal-charm-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/47.png?v=1740751351,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+regal-charm-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RegalCharmChair1.png?v=1723008466,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+tropical-duo-lounger,Tropical Duo Lounger,"<p><span data-sheets-root=""1"">Our best-selling luxurious duo rope lounger transports you to a tropical paradise, with soft cushions that envelop you in comfort. Crafted from durable aluminum and PE rope, this piece is ideal for luxury apartments and bungalows. For a stunning set, pair it with our Paradise Lounge Chair, and customize the colors to match your unique style.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",lounger,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/TropicalDuoLounger3.png?v=1722864512,1,"",false,,,Rope,,,,,,,,,,,,,,,,,kg,,,draft
+tropical-duo-lounger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/TropicalDuoLounger1.png?v=1722864512,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+tropical-duo-lounger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/TropicalDuoLounger2.png?v=1722864512,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+sleek-silhouette-table,Sleek Silhouette Table,"<p><span data-sheets-root=""1"">Featuring an aluminum base and a tabletop crafted from cellulose fiber and resin, this table combines durability with easy maintenance. Ideal for chic urban lofts, minimalist outdoor workspaces, or open yards, it offers exceptional longevity and can withstand heat and rain. Perfect for outdoor gardens and patio furniture sets, it pairs beautifully with our patio rope chairs.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/62.png?v=1730885727,1,"",false,,,Rope,,,,,,,,,,,,,,,,,kg,,,draft
+sleek-silhouette-table,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/63.png?v=1730885727,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/SleekSilhouetteTable4.png?v=1722864282,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/KhakhiSheenTable2_c2f37771-4ad1-47f5-bdb0-a29b51e28f44.png?v=1731406870,5,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/KhakhiSheenTable3_80247f7b-f402-489e-84f2-82b94a3db3ac.png?v=1731406871,6,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,VENETO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+sleek-silhouette-table,,,,,,,,,VENTO MARBLE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+willow-canopy-swing,Willow Swing,"<p><span data-sheets-root=""1"">Enhance your outdoor space with this expertly crafted cane swing, designed for both style and durability. Its robust cane structure withstands heat and dust, making it suitable for any weather condition. Perfect for patios, gardens, and balconies, this swing provides a relaxing retreat with minimal stress. It features a removable cushion for easy maintenance during harsh weather and supports up to 120 kg, with added spring support for extra comfort.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Home & Garden > Lawn & Garden > Outdoor Living > Porch Swings,"",swing,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,25000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/79.png?v=1730886100,1,"",false,,,Cane,,,,,,,,,,,,,,,,,kg,,10500.00,active
+willow-canopy-swing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/80.png?v=1730886101,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+willow-canopy-swing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WillowCanopySwing1.png?v=1722864000,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+willow-canopy-swing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WillowCanopySwing3.png?v=1722864000,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+willow-canopy-swing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WillowCanopySwing4.png?v=1722864000,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+willow-canopy-swing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WillowCanopySwing5.png?v=1722864000,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+nomadic-table,Nomadic Table,"<p><span data-sheets-root=""1"">Crafted from PE cane, this table is an ideal addition to your patio furniture set and other outdoor spaces. Designed to endure heat and dust, it ensures both durability and longevity. Easy to maintain, it can be wiped clean with a damp cloth to remove dust or spills. Customizable based on size, cane color, and tabletop shape, it can be tailored to perfectly fit your needs.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,16000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/38.png?v=1730885031,1,"",false,,,Cane,"• Dimensions L x B x H: 76cm X 76cm x 70cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,beige,,wicker,,,,,,,,,,,,kg,,8000.00,active
+nomadic-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/39.png?v=1730885032,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+nomadic-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/NomadicTable1.png?v=1722855197,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+paradise-lounge-chair,Paradise Lounge Chair,"<p><span data-sheets-root=""1"">This premium rope chair transforms your outdoor space into a tropical haven, with soft cushions that envelop you in comfort. Constructed from durable materials, including an aluminum frame and PE rope, it’s perfect for luxury apartments and bungalows. The chair includes customizable cushions, making it an ideal choice for high-end garden furniture.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/41.png?v=1730885119,1,"",false,,,Rope,,upholstered,floral; beige,,aluminum; rattan,,,wicker,upholstered,,,,,,,,kg,,,draft
+paradise-lounge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/40.png?v=1730885119,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+paradise-lounge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/42.png?v=1730885119,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+paradise-lounge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ParadiseLoungeChair2.png?v=1722854796,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+misty-mesh-table,Misty Mesh Table,"<p><span data-sheets-root=""1"">Inspired by foggy mornings and gentle breezes, this cane-woven table is an ideal addition to your patio furniture set. Designed to endure various weather conditions, it promises durability and longevity. Easy to maintain and fully customizable to meet your needs, this table combines functionality with timeless elegance.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Cane,Ribbed - White (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/28.png?v=1730884598,1,"",false,,,Cane,,,beige,,mesh,,,,,,,,,,,,kg,,,draft
+misty-mesh-table,,,,,,,,,Ribbed - Whitewash (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/27.png?v=1730884598,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Ribbed - Honeywicker (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Ribbed - Graphite Black (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyMeshTable1.png?v=1722847015,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Ribbed - Java Brown (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Ribbed - Cappuccino (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Pulut - Mocca Java (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Pulut - Arabica (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Pulut - Elegance Brown (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-mesh-table,,,,,,,,,Pulut - Sea Shell (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,Retro Woven Chair,"<p><span data-sheets-root=""1"">Crafted from durable PE cane, this chair features a timeless silhouette and ample cushion space, making it a sophisticated addition to garden areas and poolside settings. Its robust construction ensures resilience against outdoor conditions and long-lasting enjoyment with minimal maintenance. Perfect for enhancing your outdoor spaces with elegance and durability.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,false,Choice of Cane,Ribbed - White (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/48.png?v=1730885268,1,"",false,,,Cane,,hard,beige; white,,metal,,,wicker,hard,,,,,,,,kg,,,draft
+retro-woven-chair,,,,,,,,,Ribbed - Whitewash (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/49.png?v=1730885268,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Ribbed - Honeywicker (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Ribbed - Graphite Black (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/50.png?v=1730885268,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Ribbed - Java Brown (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RetroWovenChair3.png?v=1722846802,5,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Ribbed - Cappuccino (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RetroWovenChair1.png?v=1722846802,6,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Pulut - Mocca Java (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Pulut - Arabica (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Pulut - Elegance Brown (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+retro-woven-chair,,,,,,,,,Pulut - Sea Shell (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+classic-mesh-chair,Classic Mesh Chair,"<p><span data-sheets-root=""1"">This durable outdoor cane chair is crafted with a robust aluminum frame and high-quality cane, designed to withstand the elements. Its weather-resistant construction ensures longevity, while the comfortable seating provides a relaxing experience. Easy to clean and reposition, this chair is perfect for enhancing your patio, garden, or balcony with both practicality and style.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,13000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/16.png?v=1730884072,1,"",false,,,Cane,"• Dimensions L x B x H: 55cm X 48cm x 88cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",mesh,beige; brown,,aluminum; mesh,,,grid,mesh,,,,,,,,kg,,5500.00,active
+classic-mesh-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/15_da478b61-4f67-41f4-8236-c28ebd6ca79c.png?v=1730884072,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+classic-mesh-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/17.png?v=1730884072,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+classic-mesh-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ClassicMeshChair1.png?v=1722845539,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+classic-mesh-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ClassicMeshChair2.png?v=1722845539,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+ethereal-table,Ethereal Table,"<p><span data-sheets-root=""1"">Inspired by the northern skies, this table boasts a stone-like tabletop crafted from cellulose fiber and resin. With a tri-legged aluminum base, it ensures both exceptional sturdiness and a lightweight design. Ideal for outdoor use, it's rust-free and stain-resistant, making it easy to clean. Combining durability and style, it's perfect for laid-back evenings and quality time with loved ones.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/21.png?v=1730884313,1,"",false,,,,,,black; gray,,aluminum; resin,,,,,,,,,,,,kg,,,draft
+ethereal-table,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/22.png?v=1730884313,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/23.png?v=1730884314,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,VENE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+ethereal-table,,,,,,,,,VENTO MARBL,,,,,,,,,0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+vintage-majestic-chair,Vintage Majestic Chair,"<p><span data-sheets-root=""1"">This cane chair marries rustic charm with modern efficiency, providing outstanding comfort and support. Designed to resist UV rays, dust, and heat, it’s effortless to clean with a damp cloth and easy to move. Ideal for enhancing your garden furniture collection and perfect for any outdoor setting.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,10500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/72.png?v=1730886013,1,"",false,,,Cane,"• Dimensions L x B x H: 53cm X 45cm x 77cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,beige; brown,,wicker,,,,,,,,,,,,kg,,4800.00,active
+vintage-majestic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/73.png?v=1730886013,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+vintage-majestic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/VintageMajesticChair1.png?v=1722844902,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+vintage-majestic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/74.png?v=1730886014,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+nomadic-sand-table,Nomadic Sand Table,"<p><span data-sheets-root=""1"">Crafted from PE cane, this table is an ideal addition to your patio furniture set and other outdoor spaces. Designed to endure heat and dust, it offers exceptional durability and longevity. Maintenance is simple—just wipe with a damp cloth to remove dust or moisture. It features built-in storage and offers multiple customizable size and color options for sofa and chair sets.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/36.png?v=1730884991,1,"",false,,,Cane,,,brown,,wood,,,,,,,,,,,,kg,,,draft
+nomadic-sand-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/37.png?v=1730884992,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+nomadic-sand-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/NomadicSandTable3.png?v=1722791566,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+breezy-barstand-table,Breezy Barstand Table,"<p><span data-sheets-root=""1"">Featuring a durable wooden-polish aluminum base and a sleek tabletop molded from cellulose fiber and resin, this waterproof table is a perfect addition to your outdoor and patio furniture sets. It’s waterproof, stain-resistant, and scratch-proof, while its lightweight design ensures easy mobility. Best paired with cane or rope chair sets.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Sporting Goods > Outdoor Recreation > Outdoor Games > Lawn Games,"",Table,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,false,,,Rope,,,,,,,,,,,,,,,,,kg,,,draft
+bohemian-classic-chair,Bohemian Classic Chair,"<p><span data-sheets-root=""1"">Handmade with an aluminum frame and high-quality cane featuring a check pattern weave, this garden chair offers exceptional comfort and support. The aluminum frame, finished with a wood polish, ensures durability for outdoor use. Rust-free and lightweight, it's an ideal choice for balcony, garden, and patio furniture setups.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,false,Choice of Cane,Ribbed - White (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/7_26450f79-ebb7-44b4-87ee-4c76d29cd76e.png?v=1730883957,1,"",false,,,Cane,,,checkered; beige; brown,,aluminum; wood,,,,,,,,,,,,kg,,,draft
+bohemian-classic-chair,,,,,,,,,Ribbed - Whitewash (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/6_de961e94-edfe-4a17-8ad1-3008dc71f6f0.png?v=1730883958,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Ribbed - Honeywicker (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Ribbed_White_6mm_1.png?v=1730886502,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Ribbed - Graphite Black (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/8_09bd119f-e3ee-4d0a-bd3d-f485f69815ba.png?v=1730883958,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Ribbed - Java Brown (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianClassicChair3.png?v=1722787613,5,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Ribbed - Cappuccino (6mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianClassicChair2.png?v=1722787613,6,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Pulut - Mocca Java (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianClassicChair4.png?v=1722787612,7,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Pulut - Arabica (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Pulut - Elegance Brown (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-classic-chair,,,,,,,,,Pulut - Sea Shell (7mm),,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+rustic-braided-bar-chair,Rustic Bar Chair,"<p><span data-sheets-root=""1"">Featuring PE rope and aluminum legs with a wood-like finish, this chair instantly elevates bar setups. Rust-free and easy to clean, it's ideal for outdoor use. Perfect for creating an outdoor haven by the poolside, in open yards, or on rooftop bars. These patio rope chairs are ideal for enhancing your space's aesthetics.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Chairs > Table & Bar Stools > Bar Stools,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,10500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/52.png?v=1730885306,1,"",false,,,Rope,"• Dimensions L x B x H: 45cm X 45cm x 106cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,brown,,aluminum; wood,,,,,,,,,,,,kg,,5000.00,active
+rustic-braided-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/51.png?v=1730885306,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-braided-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/53.png?v=1730885306,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-braided-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RusticBraidedBarChair2.png?v=1722785811,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-braided-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/54.png?v=1730885306,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+check-mate-table,Check & Mate Table,"<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<p><span data-sheets-root=""1"">Woven from top to bottom, this PE cane outdoor table adds elegance to your garden furniture collection. It withstands UV rays, dust, and heat, is easy to clean with a damp cloth, and can be effortlessly repositioned. Ideal for poolside areas and patios, it creates a stylish contemporary outdoor setup. Add a glass top for a sleek finish and enhanced usability.</span><br></p>
+<!---->
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,12500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/12_9b44cc90-5beb-4a96-8e40-8c8a455fa0e1.png?v=1730884032,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 60cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 7mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,brown,,fabric,,,,,,,,,,,,kg,,6000.00,active
+check-mate-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/14_8da74225-e509-4721-bd92-915683cf410a.png?v=1730884031,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+check-mate-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Check_MateTable4.png?v=1722785413,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+check-mate-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/13_365850de-9a67-4277-aadb-b978d0d29e60.png?v=1730884032,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+check-mate-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Check_MateTable1.png?v=1722785413,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-refuge-chair,Refuge Arabica Chair,"<p><span data-sheets-root=""1"">This cane chair combines rustic charm with modern functionality, offering exceptional comfort and support. Designed to endure UV rays, dust, and heat, it’s easy to clean with a damp cloth and simple to move. A perfect addition to your garden furniture collection.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,12500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/82.png?v=1730886156,1,"",false,,,Cane,"• Dimensions L x B x H: 60cm X 45cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",strap,brown,,,,,wicker,,,,,,,,,kg,,6000.00,active
+woven-refuge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/81.png?v=1730886156,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-refuge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/83.png?v=1730886155,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-refuge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WovenRefugeChair1.png?v=1722785102,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+woven-refuge-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WovenRefugeChair2.png?v=1722785102,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+khakhi-sheen-table,Khakhi Sheen Table,"<p><span data-sheets-root=""1"">Made with a durable aluminum base and featuring a sleek tabletop molded from cellulose fiber and resin, this waterproof table is a perfect addition to your outdoor furniture and patio furniture sets. It is waterproof, stain-resistant, and scratch-proof, while its lightweight design ensures easy mobility. Best paired with cane chairs and cane sofa sets.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/KhakhiSheenTable3.png?v=1722784797,1,"",false,,,Cane,,,,,,,,,,,,,,,,,kg,,,draft
+khakhi-sheen-table,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/KhakhiSheenTable2.png?v=1722784797,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/KhakhiSheenTable1.png?v=1722784797,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,VENETO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+khakhi-sheen-table,,,,,,,,,VENTO MARBLE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+wild-stripes-bar-chair,Wild Stripes Bar Chair,"<p><span data-sheets-root=""1"">Made with a dual pattern, this cane chair displays the classic black and white design with a hint of chicness. Its aluminum legs provide perfect sturdiness with a sophisticated wood-like finish. Rust-free and stain-resistant, this chair is easy to clean and ideal for outdoor use, effortlessly enhancing any bar setup. Perfect for those looking to create an outdoor haven near the poolside, in open yards, or as rooftop bar furniture.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Chairs > Table & Bar Stools > Bar Stools,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,13500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/75.png?v=1730886066,1,"",false,,,Cane,"• Dimensions L x B x H: 45cm X 45cm x 106cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,striped,,aluminum,,,,flat; hard,,,,,,,,kg,,5500.00,active
+wild-stripes-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/76.png?v=1730886066,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+wild-stripes-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/77.png?v=1730886066,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+wild-stripes-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/78.png?v=1730886065,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+wild-stripes-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WildStripesBarChair3.png?v=1722784378,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+wild-stripes-bar-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/WildStripesBarChair4.png?v=1722784378,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-weave-chair,Rustic Weave Chair,"<p><span data-sheets-root=""1"">Inspired by gypsy patterns and boho style, this rope-knit chair with an aluminum frame adds a touch of class to outdoor spaces such as patios, yards, and balconies. Designed to withstand harsh weather conditions, these chairs can be left outdoors 24/7 without concern for heat or dust. Easy to maintain, simply wipe clean with a damp cloth. Pair them with our waterproof table to create an attractive and functional outdoor furniture set.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,false,Title,Default Title,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/56.png?v=1730885365,1,"",false,,,Rope,,,brown,,aluminum,,,wicker,hard,,,,,,,,kg,,,draft
+rustic-weave-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/55.png?v=1730885366,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-weave-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RusticWeaveChair3.png?v=1722782020,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-weave-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/RusticWeaveChair2.png?v=1722782020,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+rustic-weave-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/57.png?v=1730885365,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,Crescent Chair,"<p><span data-sheets-root=""1"">Inspired by gypsy patterns and boho style, this cane chair with an aluminum frame features a wood-like finish that adds a touch of class to outdoor areas such as patios, yards, and balconies. The PE cane can sustain harsh weather conditions and can be kept outdoors 24/7 without worrying about heat, rain, or dust. Clean it with a damp cloth, and you’re good to go. These chairs can be paired with our waterproof table for an attractive outdoor furniture set.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,9500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/18.png?v=1730884263,1,"",false,,,Cane,"• Dimensions L x B x H: 55cm X 48cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,beige,,aluminum; wood,,,,,,,,,,,,kg,,4500.00,active
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/19.png?v=1730884264,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/20.png?v=1730884264,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/CrescentComfortChair3.png?v=1722781713,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/CrescentComfortChair1.png?v=1722781713,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/CrescentComfortChair2.png?v=1722781713,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+crescent-comfort-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/CrescentComfortChair5.png?v=1722781713,7,"",,,,,,,,,,,,,,,,,,,,,,,,
+misty-pearl-table-golden,Misty Pearl Table (Golden),"<p><span data-sheets-root=""1"">Inspired by the hues of morning mist, this table features a stone-like tabletop crafted from cellulose fiber and resin with PE rope knit borders. Its aluminum frame with a wood-like finish provides perfect sturdiness. Rust-free and stain-resistant, this table is easy to clean and ideal for outdoor use. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style. It pairs perfectly with the Tinted Haven Chair.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/29.png?v=1730884854,1,"",false,,,Rope,,,gold,,aluminum; resin; wood,,,,,,,,,,,,kg,,,draft
+misty-pearl-table-golden,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/30.png?v=1730884854,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_golden_1.png?v=1722781060,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_golden_3.png?v=1722781061,5,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,VENETO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-golden,,,,,,,,,VENTO MARBLE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+tinted-haven-chair,Tinted Chair,"<p><span data-sheets-root=""1"">Made with PE rope and aluminum frame with off white powder coating finish, this chair is both sturdy and stylish, making it ideal for patios, balconies, and vacation homes. It features zip-able, waterproof cushions for added convenience and comfort. The rust-proof rope chair requires minimal maintenance and is designed to endure harsh sunlight and dust, ensuring long-lasting durability. </span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,15500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/66.png?v=1730885927,1,"",false,,,Rope,"• Dimensions L x B x H: 60cm X 55cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,striped; beige; pink,,aluminum; wood,,,wicker,strap,,,,,,,,kg,,6500.00,active
+tinted-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/67.png?v=1740729448,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+tinted-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/TintedHavenChair2.png?v=1740729448,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+tinted-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/TintedHavenChair1.png?v=1740729448,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+tinted-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/68.png?v=1740729448,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+misty-pearl-table-white,Misty Pearl Table (white),"<p><span data-sheets-root=""1"">Inspired by the hues of morning mist, this table features a stone-like tabletop crafted from cellulose fiber and resin with PE rope knit borders. Its aluminum frame provides perfect sturdiness for outdoor areas. Rust-free and stain-resistant, this table is easy to clean and ideal for outdoor use. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style. Can be customized based on the size required.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/32.png?v=1730884905,1,"",false,,,Rope,,,black; white,,aluminum,,,,,,,,,,,,kg,,,draft
+misty-pearl-table-white,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/31.png?v=1730884905,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_white_2.png?v=1722775993,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_white_3.png?v=1722775993,5,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_white_6.png?v=1722775993,6,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MistyPearlTable_white_7.png?v=1722775994,7,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,VENETO,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+misty-pearl-table-white,,,,,,,,,VENTO MARBLE,,,,,,,,"",0.0,shopify,deny,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+mystic-courtyard-chair,Mystic Chair,"<p><span data-sheets-root=""1"">Inspired by the mystics of English culture, this rope chair is made with high-quality PE rope and an aluminum frame. This piece of garden furniture is both sturdy and stylish, making it perfect for yards, home gardens, and vacation homes. It features quick zip and waterproof cushions for added convenience and comfort. This rope chair is rust-proof and requires minimal maintenance, ensuring it withstands harsh sunlight and dust without any damage.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,14000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/34.png?v=1730884937,1,"",false,,,Rope,"• Dimensions L x B x H: 58cm X 53cm x 76cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",hard,gray,,aluminum; cotton,,,grid,strap,,,,,,,,kg,,6500.00,active
+mystic-courtyard-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/35.png?v=1730884937,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+mystic-courtyard-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MysticCourtyardChair1.png?v=1740728722,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+mystic-courtyard-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/MysticCourtyardChair3.png?v=1740728722,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+mystic-courtyard-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/33.png?v=1740728722,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,Zebra Chic Chair,"<p><span data-sheets-root=""1"">Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane chair adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Luxe Sofa for an ideal garden set.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Zebra Weave,Signal White & Graphite Black,,,,,,,,'100,0.0,shopify,continue,manual,12200.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/84.png?v=1730886193,1,"",false,,,Cane,"• Dimensions L x B x H: 50cm X 55cm x 86cm 
+
+•  100% Aluminum Frame with Wooden Polish
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - White & Brown
+
+• Five-Year Cane Colour Warranty*",,striped; black; brown; animal,,pine-wood,,,wicker; solid,flat,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Agora_1.png?v=1737095487,kg,,5500.00,active
+zebra-chic-chair,,,,,,,,,Honeywicker & Graphite Black,,,,,,,,'100,0.0,shopify,continue,manual,12200.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/85.png?v=1730886193,2,"",,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Agora.png?v=1737095314,kg,,5500.00,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/86.png?v=1730886192,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraChicChair4.png?v=1722774660,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraChicChair1.png?v=1722774660,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraChicChair2.png?v=1722774660,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Agora.png?v=1737095314,7,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-chic-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/Agora_1.png?v=1737095487,8,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-savvy-table,Zebra Savvy Table,"<p><span data-sheets-root=""1"">Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane sofa adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Zen Chairs and Zebra Luxe Sofa for a contemporary waterproof furniture set. Customizable from round to square or rectangle, choose from the sizes mentioned below.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,10500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/90.png?v=1730886330,1,"",false,,,Cane,"• Dimensions L x B x H: 55cm X 55cm x 60cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - White & Black Ribbed
+
+• Five-Year Cane Colour Warranty*",,black; animal; geometric,,,,,,,,,,,,,,kg,,4500.00,active
+zebra-savvy-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/91.png?v=1730886330,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-savvy-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraSavvyTable2.png?v=1722772436,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-savvy-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraSavvyTable3.png?v=1722772436,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-zen-chair,Zebra Zen Chair,"<p><span data-sheets-root=""1"">Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane chair adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Luxe Sofa for a contemporary waterproof furniture set.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,11000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/93.png?v=1730886361,1,"",false,,,Cane,"• Dimensions L x B x H: 63cm X 48cm x 80cm
+
+• Wooden Finish on 100%
+Aluminum Frame
+
+• Light weight & Rust free
+
+• Weather-proof | Washable
+
+• 6mm PE Cane - Zebra 
+
+• Five-Year Cane Colour Warranty*",strap,beige; striped; black,,metal; fabric,,,grid,strap,,,,,,,,kg,,5500.00,active
+zebra-zen-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/94.png?v=1730886361,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-zen-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/92.png?v=1740726334,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-zen-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraZenChair5.png?v=1740726334,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-luxe-sofa,Zebra Luxe Sofa,"<p><span data-sheets-root=""1"">Add a touch of wilderness to your furniture with the zebra-inspired weave that provides a blend of comfort and style to the outdoors. This PE cane sofa adds a modest touch to your collection of garden furniture. As it sustains UV rays and protects itself from dust and heat, it is an ideal choice for the landscapes of your home. It can be cleaned with a damp cloth and easily moved around. You can pair this piece with our Zebra Savvy Table and Zebra Zen Cane chairs for an ideal garden set.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Sofas,"",sofa,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,22500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/88.png?v=1730886240,1,"",false,,,Cane,"• Dimensions L x B x H: 129cm X 55cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,striped,,,,,,,,,,,,,,kg,,9500.00,active
+zebra-luxe-sofa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/89.png?v=1730886241,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-luxe-sofa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/87.png?v=1730886240,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+zebra-luxe-sofa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ZebraLuxeSofa3.png?v=1722770260,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+swirl-haven-table,Hollow Haven Table,"<p><span data-sheets-root=""1"">Made with high-quality and waterproof cane, this table is designed to ensure that it remains sturdy and intact even in harsh weather conditions. This is a perfect addition to the Hallow Haven Chair set. Its well-proportioned design ensures that it is both functional and stylish. This piece adds an extra edgy-swirl to your luxury outdoor furniture haven.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"",Table,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,21000.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/64.png?v=1730885829,1,"",false,,,Cane,"• Dimensions L x B x H: 76cm X 76cm x 50cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,black,,wood,,,,,,,,,,,,kg,,9500.00,active
+swirl-haven-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/65.png?v=1730885829,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+swirl-haven-table,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/SwirlHavenTable1.png?v=1722769979,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+hollow-haven-chair,Hollow Haven Chair,"<p><span data-sheets-root=""1"">A blend of innovative and robust design, this cane-weaved chair is a versatile choice for various outdoor gatherings and can sustain harsh weather conditions. Easy to clean, this cane chair ensures longevity with minimal effort and care. It is ideal for enhancing your patio or deck when paired with our Swirl Haven Table.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,27500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/25.png?v=1730884404,1,"",false,,,Cane,"• Dimensions L x B x H: 80cm X 60cm x 80cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,,,wicker,,,,,,,,,,,,kg,,12500.00,active
+hollow-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/24.png?v=1730884404,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+hollow-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/26.png?v=1730884404,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+hollow-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/HollowHavenChair1.png?v=1722767797,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+hollow-haven-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/ChatGPT_Image_Apr_3_2025_08_45_41_AM.png?v=1743650246,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+shino-stackable-chair,Shino Stackable Chair,"<p><span data-sheets-root=""1"">Designed for modern spaces and smart setups, these chairs are made of PE cane, known for its remarkable durability and warranty. Lightweight yet sturdy, they withstand exposure to sunlight without any damage for up to 5 years. Plus, they are stackable for easy storage, freeing up extra space when needed.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,10200.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/59.png?v=1730885408,1,"",false,,,Cane,"• Dimensions L x B x H: 55cm X 48cm x 90cm 
+
+•  100% Aluminum Frame 
+
+• Light weight & Rust free 
+
+• Weather-proof | Washable 
+
+• 6mm PE Cane  - Elegance Brown  
+
+• Five-Year Cane Colour Warranty*",,brown,,,,,,,,,,,,,,kg,,4500.00,active
+shino-stackable-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/61.png?v=1730885408,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+shino-stackable-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/60.png?v=1730885408,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+shino-stackable-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/58.png?v=1730885408,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+aurora-black-table,Aurora Black Table,"<p><span data-sheets-root=""1"">Inspired by the northern skies, this table features a stone-like tabletop crafted from cellulose fiber and resin. Its aluminum legs provide perfect sturdiness and a wood-like finish. Rust-free and stain-resistant, this table is easy to clean and is ideal for outdoor use, enhancing any landscape. Perfect for laid-back evenings and quality time with loved ones, it offers both durability and style.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Tables,"","featured, Table",false,Choice of Table Top,ADVIKA,,,,,,,,"",0.0,shopify,continue,manual,100.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/1_7c7a16e2-0f3d-4c8c-b9b7-56e530c7d213.png?v=1730883683,1,"",false,,,,,,black,,aluminum; resin,,,,,,,,,,,,kg,,,draft
+aurora-black-table,,,,,,,,,CANYON MONUMENT OAK,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/2_11008c28-a200-4049-b46f-13b6b6f162c9.png?v=1730883683,2,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,DELANO EICHE,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/go-07.png?v=1730976945,3,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,ALOE WOOD,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/AuroraBlackTableGOp5.jpg?v=1728981896,4,"",,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,COSMIC NERO,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,GREY CASPIO,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,JARAMA ELM,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,LIGHT AGRIPINA,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,NEW COLOR RANGE,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,ONYX,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,POMPEU SLATE,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,TIVOLI,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,VENETO,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+aurora-black-table,,,,,,,,,VENTO MARBLE,,,,,,,,"",0.0,shopify,continue,manual,0.00,,true,true,,,,,"",,,,,,,,,,,,,,,,,,,,,,,,kg,,,
+bohemian-breeze-chair,Bohemian Chair,"<p><span data-sheets-root=""1"">The Bohemian Breeze chair is inspired by the named culture. Made with an aluminum frame and supreme quality cane with a check pattern weave, it is designed to provide full comfort yet an elegant posture to the sitter. The aluminum frame is finished with a wooden polish for the outdoors, making it a rust-free and lightweight chair fit for your balconies, gardens, or patio.</span></p>
+<style type=""text/css""><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>
+<!---->",Great Outdoor,Furniture > Outdoor Furniture > Outdoor Seating > Outdoor Chairs,"",chair,true,Title,Default Title,,,,,,,,'100,0.0,shopify,continue,manual,10500.00,,true,false,,,,,"",https://cdn.shopify.com/s/files/1/0690/2762/7249/files/3_f4bec0f2-0646-443b-ba67-49f242c02e33.png?v=1730883860,1,"",false,,,Cane,"• Dimensions L x B x H: 45cm X 43cm x 88cm
+
+• Wooden Finish on 100%
+Aluminum Frame
+
+• Light weight & Rust free
+
+• Weather-proof | Washable
+
+• 6mm PE Cane - Zebra 
+
+• Five-Year Cane Colour Warranty*",,,,,,,,,,,,,,,,kg,,5000.00,active
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/4_7296764e-141b-4647-98b6-2103462637d6.png?v=1730883860,2,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/5_5ae640dd-bd41-47e4-8c41-ec0926fc9f68.png?v=1730883860,3,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianBreezeChair3.png?v=1722763642,4,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianBreezeChair7.png?v=1722763642,5,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianBreezeChair9.png?v=1722763642,6,"",,,,,,,,,,,,,,,,,,,,,,,,
+bohemian-breeze-chair,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0690/2762/7249/files/BohemianBreezeChair10.png?v=1722763642,7,"",,,,,,,,,,,,,,,,,,,,,,,,
