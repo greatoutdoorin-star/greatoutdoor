@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import ImageUploader from "./ImageUploader";
+import { SaveButton } from "./SaveButton";
 
 export type ProductFormValues = {
   id?: string;
@@ -287,12 +288,9 @@ export default function ProductForm({
             />
           </div>
 
-          <button
-            type="submit"
-            className="w-full bg-ink px-8 py-4 font-display font-semibold text-white transition-colors hover:bg-accent"
-          >
+          <SaveButton className="w-full" pendingLabel="Saving…">
             Save changes
-          </button>
+          </SaveButton>
 
           <Link
             href="/admin/products"

@@ -1,5 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { createAuthClient } from "@/lib/supabase/auth-server";
+import StatefulForm from "@/components/admin/StatefulForm";
+import { SaveButton, type SaveState } from "@/components/admin/SaveButton";
 
 export const dynamic = "force-dynamic";
 
@@ -43,7 +45,10 @@ const FIELDS = [
   },
 ] as const;
 
-async function saveSettings(formData: FormData) {
+async function saveSettings(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
   "use server";
 
   const db = await createAuthClient();
@@ -53,14 +58,27 @@ async function saveSettings(formData: FormData) {
     value: String(formData.get(f.key) ?? "").trim(),
   }));
 
+  // A malformed number silently breaks every enquiry link on the site, so it is
+  // worth catching here rather than discovering it from a lost lead.
+  const number = rows.find((r) => r.key === "whatsapp_number")?.value ?? "";
+  if (!/^\d{10,15}$/.test(number)) {
+    return {
+      ok: false,
+      message:
+        "WhatsApp number must be digits only, including the country code — e.g. 919829012090.",
+    };
+  }
+
   const { error } = await db.from("settings").upsert(rows, {
     onConflict: "key",
   });
 
-  if (error) throw new Error(error.message);
+  if (error) return { ok: false, message: `Could not save: ${error.message}` };
 
   // The WhatsApp number and ticker appear on statically generated pages.
   revalidatePath("/", "layout");
+
+  return { ok: true, message: "Settings saved and live on the site." };
 }
 
 export default async function AdminSettingsPage() {
@@ -81,7 +99,7 @@ export default async function AdminSettingsPage() {
         These take effect on the site straight away.
       </p>
 
-      <form action={saveSettings} className="mt-10 max-w-2xl space-y-8">
+      <StatefulForm action={saveSettings} className="mt-10 max-w-2xl space-y-8">
         {FIELDS.map((f) => (
           <div key={f.key}>
             <label
@@ -115,13 +133,8 @@ export default async function AdminSettingsPage() {
           </div>
         ))}
 
-        <button
-          type="submit"
-          className="bg-ink px-8 py-4 font-display font-semibold text-white transition-colors hover:bg-accent"
-        >
-          Save settings
-        </button>
-      </form>
+        <SaveButton pendingLabel="Saving settings…">Save settings</SaveButton>
+      </StatefulForm>
     </div>
   );
 }

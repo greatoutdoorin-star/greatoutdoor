@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createAuthClient } from "@/lib/supabase/auth-server";
 import ImageField from "@/components/admin/ImageField";
+import { SaveButton } from "@/components/admin/SaveButton";
 
 export const dynamic = "force-dynamic";
 
@@ -212,12 +213,9 @@ export default async function EditPostPage({ params }: Props) {
             />
           </div>
 
-          <button
-            type="submit"
-            className="w-full bg-ink px-8 py-4 font-display font-semibold text-white transition-colors hover:bg-accent"
-          >
+          <SaveButton className="w-full" pendingLabel="Saving post…">
             Save post
-          </button>
+          </SaveButton>
         </aside>
       </form>
 

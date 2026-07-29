@@ -1,5 +1,7 @@
 import { revalidatePath } from "next/cache";
 import { createAuthClient } from "@/lib/supabase/auth-server";
+import StatefulForm from "@/components/admin/StatefulForm";
+import { SaveButton, type SaveState } from "@/components/admin/SaveButton";
 
 export const dynamic = "force-dynamic";
 
@@ -20,16 +22,24 @@ function slugify(input: string) {
     .replace(/^-+|-+$/g, "");
 }
 
-async function addCollection(formData: FormData) {
+async function addCollection(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
   "use server";
 
   const db = await createAuthClient();
 
   const name = String(formData.get("new_name") ?? "").trim();
-  if (!name) throw new Error("Name is required");
+  if (!name) return { ok: false, message: "Name is required." };
 
   const slug = slugify(String(formData.get("new_slug") ?? "") || name);
-  if (!slug) throw new Error("Could not derive a URL slug from that name");
+  if (!slug) {
+    return {
+      ok: false,
+      message: "Could not derive a URL slug from that name.",
+    };
+  }
 
   const { count } = await db
     .from("collections")
@@ -45,12 +55,17 @@ async function addCollection(formData: FormData) {
   if (error) {
     // Unique violation on slug — the friendliest failure to explain.
     if (error.code === "23505") {
-      throw new Error(`A collection with the slug "${slug}" already exists`);
+      return {
+        ok: false,
+        message: `A collection with the slug "${slug}" already exists.`,
+      };
     }
-    throw new Error(error.message);
+    return { ok: false, message: error.message };
   }
 
   revalidatePath("/", "layout");
+
+  return { ok: true, message: `Created "${name}" at /collections/${slug}.` };
 }
 
 async function deleteCollection(formData: FormData) {
@@ -67,7 +82,10 @@ async function deleteCollection(formData: FormData) {
   revalidatePath("/", "layout");
 }
 
-async function saveCollections(formData: FormData) {
+async function saveCollections(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
   "use server";
 
   const db = await createAuthClient();
@@ -83,11 +101,16 @@ async function saveCollections(formData: FormData) {
       })
       .eq("id", id);
 
-    if (error) throw new Error(error.message);
+    if (error) return { ok: false, message: `Could not save: ${error.message}` };
   }
 
   // Collections drive the sidebar nav on every page.
   revalidatePath("/", "layout");
+
+  return {
+    ok: true,
+    message: `Saved ${ids.length} collection${ids.length === 1 ? "" : "s"}. The sidebar nav is updated.`,
+  };
 }
 
 export default async function AdminCollectionsPage() {
@@ -122,7 +145,7 @@ export default async function AdminCollectionsPage() {
         products is hidden from the site automatically.
       </p>
 
-      <form action={saveCollections} className="mt-10 max-w-3xl">
+      <StatefulForm action={saveCollections} className="mt-10 max-w-3xl">
         <div className="border-t border-hairline">
           {collections.map((c) => (
             <div
@@ -183,16 +206,13 @@ export default async function AdminCollectionsPage() {
           ))}
         </div>
 
-        <button
-          type="submit"
-          className="mt-8 bg-ink px-8 py-4 font-display font-semibold text-white transition-colors hover:bg-accent"
-        >
+        <SaveButton className="mt-8" pendingLabel="Saving collections…">
           Save collections
-        </button>
-      </form>
+        </SaveButton>
+      </StatefulForm>
 
       {/* Add ------------------------------------------------------------ */}
-      <form
+      <StatefulForm
         action={addCollection}
         className="mt-14 max-w-3xl border-t border-hairline pt-8"
       >
@@ -247,7 +267,7 @@ export default async function AdminCollectionsPage() {
             Add
           </button>
         </div>
-      </form>
+      </StatefulForm>
 
       {/* Remove --------------------------------------------------------- */}
       {collections.length > 0 && (

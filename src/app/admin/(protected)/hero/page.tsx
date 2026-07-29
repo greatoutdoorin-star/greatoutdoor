@@ -1,6 +1,8 @@
 import { revalidatePath } from "next/cache";
 import { createAuthClient } from "@/lib/supabase/auth-server";
 import ImageField from "@/components/admin/ImageField";
+import StatefulForm from "@/components/admin/StatefulForm";
+import { SaveButton, type SaveState } from "@/components/admin/SaveButton";
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +16,10 @@ type Row = {
   is_active: boolean;
 };
 
-async function saveSlides(formData: FormData) {
+async function saveSlides(
+  _prev: SaveState,
+  formData: FormData,
+): Promise<SaveState> {
   "use server";
 
   const db = await createAuthClient();
@@ -33,10 +38,15 @@ async function saveSlides(formData: FormData) {
       })
       .eq("id", id);
 
-    if (error) throw new Error(error.message);
+    if (error) return { ok: false, message: `Could not save: ${error.message}` };
   }
 
   revalidatePath("/", "layout");
+
+  return {
+    ok: true,
+    message: `Saved ${ids.length} slide${ids.length === 1 ? "" : "s"}. The home page is updated.`,
+  };
 }
 
 async function addSlide() {
@@ -100,7 +110,7 @@ export default async function AdminHeroPage() {
         <code>public/</code>. Headline and subtext are optional.
       </p>
 
-      <form action={saveSlides} className="mt-10 max-w-4xl space-y-6">
+      <StatefulForm action={saveSlides} className="mt-10 max-w-4xl space-y-6">
         {slides.map((s) => (
           <div key={s.id} className="border border-hairline p-5">
             <input type="hidden" name="id" value={s.id} />
@@ -159,13 +169,8 @@ export default async function AdminHeroPage() {
           </div>
         ))}
 
-        <button
-          type="submit"
-          className="bg-ink px-8 py-4 font-display font-semibold text-white transition-colors hover:bg-accent"
-        >
-          Save slides
-        </button>
-      </form>
+        <SaveButton pendingLabel="Saving slides…">Save slides</SaveButton>
+      </StatefulForm>
 
       {slides.length > 0 && (
         <form action={deleteSlide} className="mt-10 max-w-md border-t border-hairline pt-6">
