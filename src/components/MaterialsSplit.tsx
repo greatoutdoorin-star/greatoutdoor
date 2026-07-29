@@ -53,7 +53,7 @@ export default function MaterialsSplit({ panels }: Props) {
         className="relative h-[70vh] max-h-[760px] min-h-[420px] w-full select-none overflow-hidden lg:h-[80vh]"
       >
         {/* Bottom layer: fills the frame, revealed as the handle moves up. */}
-        <PanelImage panel={bottom} align="bottom" />
+        <PanelImage panel={bottom} />
 
         {/* Top layer, clipped to the area above the handle. inset() keeps the
             image at full frame size so it does not squash as the clip moves. */}
@@ -61,8 +61,25 @@ export default function MaterialsSplit({ panels }: Props) {
           className="absolute inset-0"
           style={{ clipPath: `inset(0 0 ${position}% 0)` }}
         >
-          <PanelImage panel={top} align="top" />
+          <PanelImage panel={top} />
         </div>
+
+        {/*
+          Labels sit at the midpoint of each visible band and move with the
+          handle, so neither ever strands on the other material's photo. They
+          fade out as their band closes — a chip floating in a 40px sliver
+          reads as a mistake, and at 0% there is no band to label at all.
+        */}
+        <PanelLabel
+          label={top.label}
+          topPercent={(100 - position) / 2}
+          visible={100 - position > 18}
+        />
+        <PanelLabel
+          label={bottom.label}
+          topPercent={100 - position / 2}
+          visible={position > 18}
+        />
 
         {/* Handle: 3px bar with a 44px grip, per the reference. */}
         <div
@@ -132,19 +149,40 @@ export default function MaterialsSplit({ panels }: Props) {
 }
 
 /**
- * One material layer: full-bleed photo with its label chip.
+ * A material's label chip, centred in that material's visible band.
  *
- * The chips sit in opposite quarters rather than both dead-centre — centred,
- * they would overlap at the default 50% split and the top one would be sliced
- * in half by the clip as the handle moves.
+ * Kept outside the clipped layer so it is never sliced in half, and positioned
+ * from `position` so it always sits on its own photo — pinned at a fixed
+ * offset, the bottom label strands on the top image once the handle passes it.
  */
-function PanelImage({
-  panel,
-  align,
+function PanelLabel({
+  label,
+  topPercent,
+  visible,
 }: {
-  panel: Panel;
-  align: "top" | "bottom";
+  label: string;
+  topPercent: number;
+  visible: boolean;
 }) {
+  return (
+    <Link
+      href="/pages/materials"
+      aria-hidden={!visible}
+      tabIndex={visible ? undefined : -1}
+      // z-40 keeps the chip above the drag surface so it stays clickable; the
+      // surface covers the whole frame and would otherwise swallow it.
+      className={`absolute left-1/2 z-40 -translate-x-1/2 -translate-y-1/2 bg-canvas px-8 py-4 font-display font-semibold tracking-[0.08em] transition-opacity duration-200 hover:text-accent ${
+        visible ? "opacity-100" : "pointer-events-none opacity-0"
+      }`}
+      style={{ top: `${topPercent}%`, fontSize: "var(--text-body-hd)" }}
+    >
+      {label}
+    </Link>
+  );
+}
+
+/** One material layer: the full-bleed photo. */
+function PanelImage({ panel }: { panel: Panel }) {
   return (
     <div className="absolute inset-0">
       <Image
@@ -155,17 +193,6 @@ function PanelImage({
         className="object-cover"
         priority={false}
       />
-      {/* z-40 puts the chip above the drag surface so it stays clickable; the
-          surface covers the whole frame, which would otherwise swallow it. */}
-      <Link
-        href="/pages/materials"
-        className={`absolute left-1/2 z-40 -translate-x-1/2 -translate-y-1/2 bg-canvas px-8 py-4 font-display font-semibold tracking-[0.08em] transition-colors hover:text-accent ${
-          align === "top" ? "top-1/4" : "top-3/4"
-        }`}
-        style={{ fontSize: "var(--text-body-hd)" }}
-      >
-        {panel.label}
-      </Link>
     </div>
   );
 }
