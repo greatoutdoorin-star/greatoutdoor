@@ -136,14 +136,23 @@ export default function Sidebar({
         </button>
       </header>
 
-      {/* Mobile drawer */}
+      {/*
+        Mobile drawer.
+
+        `invisible` matters as much as the opacity: hidden with opacity alone the
+        panel stays in layout, and `fixed inset-0` + `overflow-y-auto` let it
+        stretch to the widest element on the page. That inflated the document's
+        scrollWidth to ~750px at a 375px viewport, so every page scrolled
+        sideways — measured, not guessed. `invisible` also takes it out of the
+        tab order, which `opacity-0` does not.
+      */}
       <div
-        className={`no-scrollbar fixed inset-0 z-30 overflow-y-auto bg-canvas px-5 pb-10 transition-opacity lg:hidden ${
+        className={`no-scrollbar fixed inset-0 z-30 w-full max-w-full overflow-y-auto overflow-x-hidden bg-canvas px-5 pb-10 transition-opacity lg:hidden ${
           hasAnnouncement ? "pt-32" : "pt-24"
         } ${
           open
-            ? "pointer-events-auto opacity-100"
-            : "pointer-events-none opacity-0"
+            ? "pointer-events-auto visible opacity-100"
+            : "pointer-events-none invisible opacity-0"
         }`}
       >
         {nav}

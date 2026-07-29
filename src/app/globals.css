@@ -65,6 +65,13 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*
+    Backstop against sideways scroll on phones. A single overflowing child —
+    a carousel track sizing to its slides, an off-screen panel still in
+    layout — otherwise makes the whole page pan horizontally. Fix the offender
+    too; this only stops one from spoiling every page.
+  */
+  overflow-x: hidden;
 }
 
 body {

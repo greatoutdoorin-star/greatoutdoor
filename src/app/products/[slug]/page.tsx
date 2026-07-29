@@ -56,7 +56,10 @@ export default async function ProductPage({ params }: Props) {
           as on the reference page. On mobile the gallery comes first (order-1
           below) so the product is visible before any text.
         */}
-        <div className="order-2 lg:order-1">
+        {/* min-w-0: grid items default to min-width:auto, so a wide child (the
+            spec lines, the thumbnail strip) forces the track wider than the
+            viewport and the whole page pans sideways on mobile. */}
+        <div className="order-2 min-w-0 lg:order-1">
           <nav
             className="flex flex-wrap items-center gap-x-2 gap-y-1 font-body text-ink-muted"
             style={{ fontSize: "var(--text-body-sm)" }}
@@ -128,7 +131,7 @@ export default async function ProductPage({ params }: Props) {
           />
         </div>
 
-        <div className="order-1 lg:order-2">
+        <div className="order-1 min-w-0 lg:order-2">
           <ProductGallery images={product.images} name={product.name} />
         </div>
       </div>

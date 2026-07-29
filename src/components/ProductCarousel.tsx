@@ -65,10 +65,14 @@ export default function ProductCarousel({ products, perView = 4 }: Props) {
       : "(max-width: 640px) 80vw, (max-width: 1023px) 45vw, 22vw";
 
   return (
-    <div>
+    // min-w-0 on the root as well as the track: without it this div sizes to
+    // its content as a flex/grid item, so the "scroll area" grew to the full
+    // width of all slides and pushed the document sideways instead of
+    // scrolling inside itself. Measured at 1428px on a 375px viewport.
+    <div className="w-full min-w-0">
       <div
         ref={trackRef}
-        className="no-scrollbar flex snap-x snap-mandatory gap-8 overflow-x-auto scroll-smooth"
+        className="no-scrollbar flex w-full min-w-0 snap-x snap-mandatory gap-8 overflow-x-auto scroll-smooth"
       >
         {products.map((p) => (
           <div key={p.slug} className={slideWidth}>
