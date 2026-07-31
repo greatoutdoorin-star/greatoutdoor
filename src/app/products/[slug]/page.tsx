@@ -13,7 +13,7 @@ import {
   getProduct,
   getRelatedProducts,
 } from "@/lib/catalog";
-import { formatPrice } from "@/lib/whatsapp";
+import { displayPrice } from "@/lib/whatsapp";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -98,7 +98,7 @@ export default async function ProductPage({ params }: Props) {
             className="mt-4 font-body"
             style={{ fontSize: "var(--text-body-hd)" }}
           >
-            {formatPrice(product.price)}
+            {displayPrice(product.price)}
           </p>
 
           <ProductEnquiry

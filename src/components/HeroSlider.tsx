@@ -27,6 +27,12 @@ export default function HeroSlider({ slides, interval = 6000 }: Props) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const reducedMotion = useRef(false);
+  /** Where a swipe began, or null when no drag is in progress. */
+  const swipeStart = useRef<{ x: number; y: number } | null>(null);
+  /** Set when the last gesture was a swipe, so it does not also fire a click. */
+  const swiped = useRef(false);
+  /** Last pointer position seen during a drag; pointercancel has none. */
+  const last = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
     reducedMotion.current = window.matchMedia(
@@ -47,11 +53,76 @@ export default function HeroSlider({ slides, interval = 6000 }: Props) {
 
   if (slides.length === 0) return null;
 
+  /**
+   * Swipe handling. The slides cross-fade rather than sitting in a scroll
+   * container, so there is nothing for touch to grab — without this the
+   * carousel is only operable via the 8px dots on a phone.
+   *
+   * The gesture is only treated as a swipe when it is clearly horizontal,
+   * so an ordinary vertical scroll that starts on the hero still scrolls
+   * the page instead of being swallowed.
+   */
+  /**
+   * Travel before a drag counts as a swipe. Deliberately small: the browser
+   * cancels the pointer within ~26px of horizontal movement, so a larger
+   * threshold is never reached. Still far beyond the few px of wobble in a tap.
+   */
+  const SWIPE_MIN = 20;
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    swipeStart.current = { x: e.clientX, y: e.clientY };
+    swiped.current = false;
+    setPaused(true);
+  };
+
+  /**
+   * Commit the swipe as soon as it is unambiguous, and again when the gesture
+   * ends — including on `pointercancel`.
+   *
+   * With `touch-action: pan-y` the browser hands the gesture to the scroller
+   * the moment it reads as horizontal, firing `pointercancel` and no
+   * `pointerup`. Traced in a real browser: only one `pointermove` arrived (26px
+   * of travel, under the threshold) before the cancel, so deciding on either
+   * move-alone or up-alone dropped every swipe. Tracking the last position and
+   * evaluating on cancel too is what makes it land.
+   */
+  const commitSwipe = (x: number, y: number) => {
+    const start = swipeStart.current;
+    if (!start || swiped.current || slides.length < 2) return;
+
+    const dx = x - start.x;
+    const dy = y - start.y;
+    if (Math.abs(dx) < SWIPE_MIN || Math.abs(dx) <= Math.abs(dy)) return;
+
+    swiped.current = true;
+    swipeStart.current = null;
+    go(index + (dx < 0 ? 1 : -1));
+  };
+
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!swipeStart.current) return;
+    last.current = { x: e.clientX, y: e.clientY };
+    commitSwipe(e.clientX, e.clientY);
+  };
+
+  const endGesture = () => {
+    // On cancel the event carries no useful coordinates (clientX is 0), so
+    // fall back to the last position seen during the move.
+    if (last.current) commitSwipe(last.current.x, last.current.y);
+    swipeStart.current = null;
+    last.current = null;
+    setPaused(false);
+  };
+
   return (
     <section
-      className="relative w-full overflow-hidden bg-surface"
+      className="relative w-full touch-pan-y overflow-hidden bg-surface"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={endGesture}
+      onPointerCancel={endGesture}
       aria-roledescription="carousel"
       aria-label="Featured"
     >
@@ -80,7 +151,19 @@ export default function HeroSlider({ slides, interval = 6000 }: Props) {
               aria-hidden={i !== index}
             >
               {slide.href ? (
-                <Link href={slide.href} className="block h-full w-full">
+                <Link
+                  href={slide.href}
+                  className="block h-full w-full"
+                  // A swipe ends as a click on the link underneath, which would
+                  // navigate away mid-gesture. Suppress it when the pointer
+                  // travelled far enough to count as a swipe.
+                  onClick={(e) => {
+                    if (swiped.current) {
+                      e.preventDefault();
+                      swiped.current = false;
+                    }
+                  }}
+                >
                   {content}
                 </Link>
               ) : (

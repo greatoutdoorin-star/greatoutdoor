@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { formatPrice, productEnquiryLink } from "@/lib/whatsapp";
+import { displayPrice, formatPrice, productEnquiryLink } from "@/lib/whatsapp";
 
 export type Product = {
   name: string;
@@ -36,7 +36,13 @@ export default function ProductCard({
       {/* 5:6 portrait — the live theme renders these cards at
           padding-top: 120%, measured from its markup, not eyeballed. */}
       <div className="relative aspect-[5/6] w-full overflow-hidden">
-        <Link href={`/products/${product.slug}`}>
+        {/* The link is the image's positioned ancestor, so it needs `absolute
+            inset-0` — with a static link, `fill` resolves against the card
+            wrapper and Next logs an invalid-position warning. */}
+        <Link
+          href={`/products/${product.slug}`}
+          className="absolute inset-0 block"
+        >
           <Image
             src={product.image}
             alt={product.name}
@@ -90,7 +96,7 @@ export default function ProductCard({
           </Link>
         </h3>
         <p className="mt-1 font-body text-ink-muted">
-          {formatPrice(product.price)}
+          {displayPrice(product.price)}
         </p>
       </div>
     </article>
