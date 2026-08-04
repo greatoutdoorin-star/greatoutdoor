@@ -31,7 +31,21 @@ export default async function B2bPage() {
         </p>
       </section>
 
-      <section className="px-6 pb-16 lg:px-14">
+      {/*
+        The form leads the page. This is the site's highest-intent screen —
+        someone arriving here already wants a quote, so making them scroll past
+        the pitch first only adds friction. Records the lead, then hands off to
+        WhatsApp.
+      */}
+      <section className="bg-surface px-6 py-16 lg:px-14 lg:py-20">
+        <h2 style={{ fontSize: "var(--text-h0)" }}>
+          Share the details below, and help us provide a custom solution for
+          your space.
+        </h2>
+        <B2bEnquiryForm />
+      </section>
+
+      <section className="px-6 py-16 lg:px-14 lg:py-20">
         <p
           className="font-body text-ink-muted"
           style={{ fontSize: "var(--text-body-hd)" }}
@@ -54,16 +68,7 @@ export default async function B2bPage() {
         </ul>
       </section>
 
-      {/* Enquiry form — composes a WhatsApp message rather than posting to a server */}
-      <section className="bg-surface px-6 py-16 lg:px-14 lg:py-20">
-        <h2 style={{ fontSize: "var(--text-h0)" }}>
-          Share the details below, and help us provide a custom solution for
-          your space.
-        </h2>
-        <B2bEnquiryForm />
-      </section>
-
-      <section className="px-6 py-16 lg:px-14 lg:py-20">
+      <section className="px-6 pb-16 lg:px-14 lg:pb-20">
         <h2 style={{ fontSize: "var(--text-h0)" }}>Our Esteemed Clientele</h2>
         <p className="mt-6 max-w-4xl font-body leading-relaxed">
           A distinguished roster of clients who trust us for exceptional
