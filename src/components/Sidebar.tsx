@@ -199,7 +199,7 @@ export default function Sidebar({
         <Link
           href="/"
           aria-label={SITE.name}
-          className="mb-16 block w-[170px] max-w-full"
+          className="block w-[170px] max-w-full"
         >
           <Image
             src="/logo.webp"
@@ -210,22 +210,22 @@ export default function Sidebar({
             className="h-auto w-full"
           />
         </Link>
-        {nav}
 
         {/*
-          Sister-brand switch. mt-auto pins it to the bottom of the rail so it
-          reads as a footer action rather than another nav item competing with
-          the collections above it.
+          Sister-brand switch, directly under the wordmark so the two brands
+          read as a pair. Same pill as the mobile header, so the affordance is
+          identical on both breakpoints.
         */}
         <a
           href={SISTER_SITE.url}
-          className="mt-auto flex items-center gap-2 pt-12 font-body text-ink-muted transition-colors hover:text-accent"
-          style={{ fontSize: "var(--text-nav-secondary)" }}
+          className="mb-14 mt-5 inline-flex w-fit items-center gap-1.5 rounded-full border border-hairline px-3 py-1.5 font-display font-semibold leading-none text-ink transition-colors hover:border-accent hover:text-accent"
+          style={{ fontSize: "11px" }}
         >
-          <span aria-hidden="true">🏠</span>
           {SISTER_SITE.name}
           <span aria-hidden="true">↗</span>
         </a>
+
+        {nav}
       </aside>
     </>
   );
