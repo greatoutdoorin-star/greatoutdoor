@@ -1,5 +1,25 @@
 export type LeadSource = "contact" | "b2b" | "product";
 
+/**
+ * Qualifying questions. Defined here so the form, the WhatsApp message and the
+ * admin screen all read from one list — an option added here appears
+ * everywhere without a second edit.
+ */
+export const ROLE_OPTIONS = [
+  "Homeowner",
+  "Architect / Interior Designer",
+  "Builder / Contractor",
+  "Business Owner (Hotel, Café, Restaurant, Office)",
+  "Other",
+] as const;
+
+export const LOOKING_FOR_OPTIONS = [
+  "Indoor Solutions",
+  "Outdoor Solutions",
+  "Both Indoor & Outdoor",
+  "Open to Exploring / Consultation",
+] as const;
+
 export type LeadPayload = {
   source: LeadSource;
   name: string;
@@ -9,6 +29,10 @@ export type LeadPayload = {
   city?: string;
   message?: string;
   product?: string;
+  /** "Who are you?" */
+  role?: string;
+  /** "What are you looking for?" */
+  lookingFor?: string;
 };
 
 /**

@@ -20,6 +20,10 @@ create table if not exists public.leads (
   message    text,
   -- Set when source = 'product': which item they were looking at.
   product    text,
+  -- Who they are and what they want. Both are free text rather than an enum:
+  -- the options can change without a migration, and "Other" is one of them.
+  role       text,
+  looking_for text,
   -- Simple workflow so the list does not become an undifferentiated pile.
   status     text not null default 'new'
              check (status in ('new', 'contacted', 'closed')),

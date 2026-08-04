@@ -43,6 +43,8 @@ var HEADERS = [
   "Email",
   "Company",
   "City",
+  "Who they are",
+  "Looking for",
   "Product",
   "Message",
 ];
@@ -69,6 +71,8 @@ function doPost(e) {
       body.email || "",
       body.company || "",
       body.city || "",
+      body.role || "",
+      body.looking_for || "",
       body.product || "",
       body.message || "",
     ]);
@@ -93,7 +97,7 @@ function getSheet() {
     sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
     sheet.setFrozenRows(1);
     sheet.setColumnWidth(1, 160); // timestamp
-    sheet.setColumnWidth(9, 420); // message
+    sheet.setColumnWidth(11, 420); // message
   }
 
   return sheet;

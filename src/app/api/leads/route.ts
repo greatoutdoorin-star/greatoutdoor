@@ -57,6 +57,8 @@ export async function POST(request: Request) {
     city: clean(body.city, 120) || null,
     message: clean(body.message, 2000) || null,
     product: clean(body.product, 200) || null,
+    role: clean(body.role, 120) || null,
+    looking_for: clean(body.lookingFor, 120) || null,
   };
 
   /*
@@ -93,6 +95,8 @@ type Lead = {
   city: string | null;
   message: string | null;
   product: string | null;
+  role: string | null;
+  looking_for: string | null;
 };
 
 /** Insert into the `leads` table. Returns false if it did not land. */

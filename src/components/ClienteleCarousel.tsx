@@ -41,17 +41,23 @@ export default function ClienteleCarousel({ logos }: Props) {
             {logos.map((src, i) => (
               <div
                 key={`${copy}-${src}`}
+                // Boxes are 2:1, matching the logo assets exactly, so the whole
+                // box is used — sizing up here makes the mark bigger rather
+                // than adding padding around it.
+                //
                 // Gap as horizontal margin rather than flex `gap`: the track is
                 // two copies laid end to end, and a gap would not be applied
                 // between the last item of one copy and the first of the next,
-                // putting a visible hitch in an otherwise seamless loop.
-                className="relative mx-5 h-16 w-32 shrink-0 sm:mx-7 sm:h-20 sm:w-40 lg:mx-8 lg:h-24 lg:w-48"
+                // putting a visible hitch in an otherwise seamless loop. Margins
+                // are deliberately tighter than before, so the extra width goes
+                // to the logos and not the space between them.
+                className="relative mx-4 h-22 w-44 shrink-0 sm:mx-5 sm:h-28 sm:w-56 lg:mx-7 lg:h-36 lg:w-72"
               >
                 <Image
                   src={src}
                   alt={copy === 0 ? `Client ${i + 1}` : ""}
                   fill
-                  sizes="(max-width: 640px) 128px, (max-width: 1023px) 160px, 192px"
+                  sizes="(max-width: 640px) 176px, (max-width: 1023px) 224px, 288px"
                   className="object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
                 />
               </div>

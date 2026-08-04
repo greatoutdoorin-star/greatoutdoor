@@ -15,6 +15,8 @@ type Lead = {
   city: string | null;
   message: string | null;
   product: string | null;
+  role: string | null;
+  looking_for: string | null;
   status: "new" | "contacted" | "closed";
   notes: string | null;
   created_at: string;
@@ -230,6 +232,30 @@ export default async function AdminLeadsPage({
                 <span className="text-ink-muted">Re: {lead.product}</span>
               )}
             </div>
+
+            {/* Qualifiers as chips — they are the fastest way to triage a
+                list, so they get their own line rather than being buried in
+                the contact row. */}
+            {(lead.role || lead.looking_for) && (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {lead.role && (
+                  <span
+                    className="border border-hairline px-2 py-1 font-body text-ink-muted"
+                    style={{ fontSize: "11px" }}
+                  >
+                    {lead.role}
+                  </span>
+                )}
+                {lead.looking_for && (
+                  <span
+                    className="border border-accent/40 bg-accent/5 px-2 py-1 font-body text-accent"
+                    style={{ fontSize: "11px" }}
+                  >
+                    {lead.looking_for}
+                  </span>
+                )}
+              </div>
+            )}
 
             {lead.message && (
               <p className="mt-4 whitespace-pre-wrap font-body leading-relaxed">

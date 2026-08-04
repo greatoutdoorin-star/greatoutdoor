@@ -1,7 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { recordLead } from "@/lib/leads";
+import {
+  LOOKING_FOR_OPTIONS,
+  ROLE_OPTIONS,
+  recordLead,
+} from "@/lib/leads";
 import { buildWhatsAppLink } from "@/lib/whatsapp";
 
 /**
@@ -25,11 +29,19 @@ export default function B2bEnquiryForm({ compact, onSubmitted }: Props = {}) {
     company: "",
     phone: "",
     city: "",
+    role: "",
+    lookingFor: "",
     requirement: "",
   });
 
-  const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
-    setForm((f) => ({ ...f, [k]: e.target.value }));
+  const set =
+    (k: keyof typeof form) =>
+    (
+      e: React.ChangeEvent<
+        HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+      >,
+    ) =>
+      setForm((f) => ({ ...f, [k]: e.target.value }));
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -43,6 +55,8 @@ export default function B2bEnquiryForm({ compact, onSubmitted }: Props = {}) {
       phone: form.phone,
       company: form.company,
       city: form.city,
+      role: form.role,
+      lookingFor: form.lookingFor,
       message: form.requirement,
     });
 
@@ -52,6 +66,8 @@ export default function B2bEnquiryForm({ compact, onSubmitted }: Props = {}) {
       form.company && `Company: ${form.company}`,
       `Phone: ${form.phone}`,
       form.city && `City: ${form.city}`,
+      form.role && `I am a: ${form.role}`,
+      form.lookingFor && `Looking for: ${form.lookingFor}`,
       "",
       form.requirement,
     ].filter(Boolean);
@@ -99,6 +115,51 @@ export default function B2bEnquiryForm({ compact, onSubmitted }: Props = {}) {
           aria-label="City"
           className={field}
         />
+      </div>
+
+      {/*
+        Qualifying questions. Required, because knowing whether this is a
+        homeowner or an architect — and indoor or outdoor — is what lets an
+        enquiry be routed before anyone picks up the phone.
+
+        Rendered as selects rather than radio groups: five options each would
+        add ~9 rows to a form that has to work inside the FAB dialog on a
+        phone. A native select is also the better touch target there.
+      */}
+      <div className={`grid ${compact ? "mt-3 gap-3" : "mt-5 gap-5 sm:grid-cols-2"}`}>
+        <select
+          required
+          value={form.role}
+          onChange={set("role")}
+          aria-label="Who are you?"
+          className={`${field} ${form.role ? "" : "text-ink-muted"}`}
+        >
+          <option value="" disabled>
+            Who are you?*
+          </option>
+          {ROLE_OPTIONS.map((o) => (
+            <option key={o} value={o} className="text-ink">
+              {o}
+            </option>
+          ))}
+        </select>
+
+        <select
+          required
+          value={form.lookingFor}
+          onChange={set("lookingFor")}
+          aria-label="What are you looking for?"
+          className={`${field} ${form.lookingFor ? "" : "text-ink-muted"}`}
+        >
+          <option value="" disabled>
+            What are you looking for?*
+          </option>
+          {LOOKING_FOR_OPTIONS.map((o) => (
+            <option key={o} value={o} className="text-ink">
+              {o}
+            </option>
+          ))}
+        </select>
       </div>
 
       <textarea
