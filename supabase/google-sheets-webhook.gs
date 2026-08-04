@@ -8,8 +8,18 @@
  *   4. Deploy -> New deployment -> type "Web app".
  *        Execute as:      Me
  *        Who has access:  Anyone
- *      (It must be "Anyone" — the site calls this from its server, which is
- *      not signed into your Google account. The SECRET is what protects it.)
+ *
+ *      "Anyone" is required, and "Anyone with a Google account" is NOT enough:
+ *      the site calls this from its server, which is not signed in to Google.
+ *      With the wrong setting the URL answers a Google sign-in page instead of
+ *      running the script, and every lead is silently dropped.
+ *
+ *      Verify with: node scripts/test-sheet-webhook.mjs
+ *      An HTML response means the access setting is still wrong.
+ *
+ *      After changing it: Deploy -> Manage deployments -> pencil icon ->
+ *      Version: "New version" -> Deploy. Editing without a new version keeps
+ *      serving the old one.
  *   5. Copy the /exec URL it gives you.
  *   6. Add both values to the site's environment:
  *        GOOGLE_SHEETS_WEBHOOK_URL = the /exec URL
