@@ -230,11 +230,13 @@ body::-webkit-scrollbar,
 }
 
 /*
-  The logo strip is a much longer track than the text ticker, so it needs a
-  slower cycle — at 32s the logos stream past too fast to read.
+  Logo strip cycle. Was 55s, set when the logos were smaller and the track was
+  much wider; trimming their baked-in padding shortened the track, so the same
+  duration read as a crawl. 32s keeps each mark legible as it passes without
+  the strip feeling stalled.
 */
 .marquee-track--logos {
-  animation-duration: 55s;
+  animation-duration: 32s;
 }
 
 @media (prefers-reduced-motion: reduce) {
