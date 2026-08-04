@@ -24,7 +24,7 @@ type Props = {
 export default function EnquiryForm({ onSubmitted }: Props = {}) {
   const [form, setForm] = useState({
     name: "",
-    company: "",
+    email: "",
     phone: "",
     city: "",
     role: "",
@@ -51,7 +51,7 @@ export default function EnquiryForm({ onSubmitted }: Props = {}) {
       source: "contact",
       name: form.name,
       phone: form.phone,
-      company: form.company,
+      email: form.email,
       city: form.city,
       role: form.role,
       lookingFor: form.lookingFor,
@@ -61,7 +61,7 @@ export default function EnquiryForm({ onSubmitted }: Props = {}) {
     const lines = [
       "Enquiry",
       `Name: ${form.name}`,
-      form.company && `Company: ${form.company}`,
+      form.email && `Email: ${form.email}`,
       `Phone: ${form.phone}`,
       form.city && `City: ${form.city}`,
       form.role && `I am a: ${form.role}`,
@@ -88,11 +88,14 @@ export default function EnquiryForm({ onSubmitted }: Props = {}) {
           aria-label="Your name"
           className={field}
         />
+        {/* type="email" gets the right keyboard on a phone and free browser
+            validation. Optional — phone is the field we actually follow up on. */}
         <input
-          value={form.company}
-          onChange={set("company")}
-          placeholder="Company / property"
-          aria-label="Company or property"
+          type="email"
+          value={form.email}
+          onChange={set("email")}
+          placeholder="Email address"
+          aria-label="Email address"
           className={field}
         />
         <input
