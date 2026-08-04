@@ -117,14 +117,24 @@ export default function Sidebar({
         </a>
 
         {/*
-          logo-mark.webp, not logo.webp: the original has uneven padding baked
-          in (36px left, 109px right of a 1008px canvas), so centring the image
-          box put the visible mark 37px off centre. This copy is cropped to the
-          ink with an even 8px margin — measured, not eyeballed.
+          logo-stack.webp is the centred-lockup variant, used only here.
+
+          Two problems had to be fixed to make this read as centred. First the
+          source file carries uneven padding (36px left, 109px right of a
+          1008px canvas), so centring the image box left the mark 37px off.
+          Second — and the reason it still looked wrong after cropping — the
+          wordmark is a LEFT-ALIGNED two-line lockup: "great" is 288px narrower
+          than "outdoor" and starts at the same x, putting its optical centre
+          145px to the left. Centring the box centres the bounding rectangle,
+          which the eye does not read as centred.
+
+          This variant re-centres the two words on a shared axis. Verified:
+          both sit within 0.5px of the canvas centre. The desktop rail keeps
+          the original left-aligned lockup, where left alignment is correct.
         */}
         <Link href="/" aria-label={SITE.name} className="justify-self-center">
           <Image
-            src="/logo-mark.webp"
+            src="/logo-stack.webp"
             alt={SITE.name}
             width={879}
             height={378}
@@ -201,6 +211,21 @@ export default function Sidebar({
           />
         </Link>
         {nav}
+
+        {/*
+          Sister-brand switch. mt-auto pins it to the bottom of the rail so it
+          reads as a footer action rather than another nav item competing with
+          the collections above it.
+        */}
+        <a
+          href={SISTER_SITE.url}
+          className="mt-auto flex items-center gap-2 pt-12 font-body text-ink-muted transition-colors hover:text-accent"
+          style={{ fontSize: "var(--text-nav-secondary)" }}
+        >
+          <span aria-hidden="true">🏠</span>
+          {SISTER_SITE.name}
+          <span aria-hidden="true">↗</span>
+        </a>
       </aside>
     </>
   );
