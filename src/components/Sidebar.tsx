@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { SECONDARY_NAV, SITE } from "@/lib/site";
+import { SECONDARY_NAV, SISTER_SITE, SITE } from "@/lib/site";
 
 export type NavCollection = { name: string; slug: string };
 
@@ -94,27 +94,51 @@ export default function Sidebar({
         not emit a class for top-[var(--announcement-h)], which left the header
         with no top offset at all.
       */}
+      {/*
+        Three equal columns rather than justify-between: with the sister-brand
+        button on one side and the menu on the other, space-between would centre
+        the logo only if both flanks happened to be the same width. Equal
+        columns keep it centred regardless.
+      */}
       <header
-        className={`site-header fixed inset-x-0 top-0 z-40 flex h-16 items-center justify-between border-b border-hairline bg-canvas px-5 lg:hidden ${
+        className={`site-header fixed inset-x-0 top-0 z-40 grid h-16 grid-cols-[1fr_auto_1fr] items-center border-b border-hairline bg-canvas px-4 lg:hidden ${
           hasAnnouncement ? "site-header--offset" : ""
         }`}
       >
-        <Link href="/" aria-label={SITE.name}>
+        {/* Switch to the sister brand. Outbound to a separate site, hence the
+            plain anchor rather than next/link. */}
+        <a
+          href={SISTER_SITE.url}
+          className="justify-self-start rounded-full border border-hairline px-3 py-1.5 font-display font-semibold leading-none text-ink transition-colors hover:border-accent hover:text-accent"
+          style={{ fontSize: "11px" }}
+        >
+          {SISTER_SITE.shortLabel}
+          <span aria-hidden="true"> ↗</span>
+        </a>
+
+        {/*
+          logo-mark.webp, not logo.webp: the original has uneven padding baked
+          in (36px left, 109px right of a 1008px canvas), so centring the image
+          box put the visible mark 37px off centre. This copy is cropped to the
+          ink with an even 8px margin — measured, not eyeballed.
+        */}
+        <Link href="/" aria-label={SITE.name} className="justify-self-center">
           <Image
-            src="/logo.webp"
+            src="/logo-mark.webp"
             alt={SITE.name}
-            width={1008}
-            height={472}
+            width={879}
+            height={378}
             priority
             className="h-9 w-auto"
           />
         </Link>
+
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
-          className="-mr-2 p-2"
+          className="justify-self-end p-2"
         >
           <span className="relative block h-4 w-6">
             <span

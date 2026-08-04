@@ -1,100 +1,64 @@
-"use client";
-
 import Image from "next/image";
-import { useCallback, useEffect, useRef, useState } from "react";
 
 type Props = { logos: string[] };
 
 /**
- * Clientele logo strip with prev/next controls and an "n/total" counter,
- * matching the reference layout. Logos are greyscale until hovered, which
- * keeps a row of mismatched brand colours visually calm.
+ * Continuously scrolling clientele strip.
+ *
+ * Replaces the paged carousel: with 15 logos, paging meant five clicks to see
+ * the roster and most visitors saw only the first three. A marquee shows all of
+ * them without interaction.
+ *
+ * The list is rendered twice and the track translates by -50%, so one cycle
+ * ends exactly where the second copy begins and the loop is seamless. Pure CSS
+ * — no scroll listener, no state, so this stays a server component.
  */
 export default function ClienteleCarousel({ logos }: Props) {
-  const trackRef = useRef<HTMLDivElement>(null);
-  const [page, setPage] = useState(0);
-  const [pages, setPages] = useState(1);
-
-  const measure = useCallback(() => {
-    const el = trackRef.current;
-    if (!el) return;
-    setPages(Math.max(1, Math.round(el.scrollWidth / el.clientWidth)));
-    setPage(Math.round(el.scrollLeft / el.clientWidth));
-  }, []);
-
-  useEffect(() => {
-    const el = trackRef.current;
-    if (!el) return;
-    measure();
-    el.addEventListener("scroll", measure, { passive: true });
-    window.addEventListener("resize", measure);
-    return () => {
-      el.removeEventListener("scroll", measure);
-      window.removeEventListener("resize", measure);
-    };
-  }, [measure]);
-
-  const step = (dir: -1 | 1) => {
-    const el = trackRef.current;
-    if (!el) return;
-    el.scrollBy({ left: dir * el.clientWidth, behavior: "smooth" });
-  };
+  if (logos.length === 0) return null;
 
   return (
-    <div>
+    // group/marquee: hovering anywhere on the strip pauses it, so a logo can be
+    // looked at without chasing it across the screen.
+    <div className="group/marquee relative overflow-hidden">
+      {/* Soft edges so logos fade rather than clip at the boundary. */}
       <div
-        ref={trackRef}
-        className="no-scrollbar flex w-full min-w-0 snap-x snap-mandatory items-center gap-6 overflow-x-auto scroll-smooth sm:gap-10 lg:gap-14"
-      >
-        {/*
-          Fewer, larger logos per view — at 18% width they were unreadable.
-          Two per screen on mobile: the width subtracts half the 1.5rem gap so
-          the pair lands exactly on the track width, which keeps snap-start
-          paging aligned. Desktop stays at three.
-        */}
-        {logos.map((src, i) => (
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-y-0 left-0 z-10 w-12 bg-gradient-to-r from-canvas to-transparent lg:w-24"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-y-0 right-0 z-10 w-12 bg-gradient-to-l from-canvas to-transparent lg:w-24"
+      />
+
+      <div className="marquee-track marquee-track--logos flex w-max items-center group-hover/marquee:[animation-play-state:paused]">
+        {[0, 1].map((copy) => (
           <div
-            key={src}
-            className="relative h-20 w-[calc(50%-0.75rem)] shrink-0 snap-start sm:h-40 sm:w-[42%] lg:h-44 lg:w-[30%]"
+            key={copy}
+            className="flex shrink-0 items-center"
+            // The second copy exists only to make the loop seamless.
+            aria-hidden={copy === 1}
           >
-            <Image
-              src={src}
-              alt={`Client ${i + 1}`}
-              fill
-              sizes="(max-width: 640px) 45vw, (max-width: 1023px) 42vw, 30vw"
-              className="object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
-            />
+            {logos.map((src, i) => (
+              <div
+                key={`${copy}-${src}`}
+                // Gap as horizontal margin rather than flex `gap`: the track is
+                // two copies laid end to end, and a gap would not be applied
+                // between the last item of one copy and the first of the next,
+                // putting a visible hitch in an otherwise seamless loop.
+                className="relative mx-5 h-16 w-32 shrink-0 sm:mx-7 sm:h-20 sm:w-40 lg:mx-8 lg:h-24 lg:w-48"
+              >
+                <Image
+                  src={src}
+                  alt={copy === 0 ? `Client ${i + 1}` : ""}
+                  fill
+                  sizes="(max-width: 640px) 128px, (max-width: 1023px) 160px, 192px"
+                  className="object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+                />
+              </div>
+            ))}
           </div>
         ))}
       </div>
-
-      {pages > 1 && (
-        <div className="mt-10 flex items-center justify-center gap-6">
-          <button
-            type="button"
-            onClick={() => step(-1)}
-            aria-label="Previous clients"
-            className="text-2xl leading-none text-ink-muted transition-colors hover:text-accent"
-          >
-            ‹
-          </button>
-          <span
-            className="font-body text-ink-muted"
-            style={{ fontSize: "var(--text-body-sm)" }}
-            aria-live="polite"
-          >
-            {page + 1}/{pages}
-          </span>
-          <button
-            type="button"
-            onClick={() => step(1)}
-            aria-label="Next clients"
-            className="text-2xl leading-none text-ink-muted transition-colors hover:text-accent"
-          >
-            ›
-          </button>
-        </div>
-      )}
     </div>
   );
 }

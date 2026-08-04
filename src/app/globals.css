@@ -51,6 +51,16 @@
   --text-hh: 50px;                 /* 48/24 * 25 — hero display */
 
   /*
+    Confirmation-call promise in PromoSplit, previously baked into a WebP.
+
+    Sized in cqw (container query width), not vw: the column is only ~40% of
+    the viewport, so a vw-based size overshot and wrapped "Landscape Stylist"
+    onto a sixth line — measured at 1280px, where three of the five lines
+    broke. 8.6cqw fits the longest line inside its own column at every width.
+  */
+  --text-promo: clamp(20px, 8.1cqw, 40px);
+
+  /*
     Layout — the reference sidebar is fluid, not fixed:
       .sidebar { width: 20%; min-width: 240px; max-width: 360px }
     (380px is the mobile drawer panel, .sidebar__menus — a different element.)
@@ -219,9 +229,26 @@ body::-webkit-scrollbar,
   animation: marquee-scroll 32s linear infinite;
 }
 
+/*
+  The logo strip is a much longer track than the text ticker, so it needs a
+  slower cycle — at 32s the logos stream past too fast to read.
+*/
+.marquee-track--logos {
+  animation-duration: 55s;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .marquee-track {
     animation: none;
+  }
+
+  /*
+    With the animation off the track is still two copies wide and would sit
+    half off-screen. Show one copy and let it scroll manually instead.
+  */
+  .marquee-track--logos {
+    width: 100%;
+    overflow-x: auto;
   }
 }
 

@@ -14,6 +14,17 @@ export const SITE = {
   url: "https://greatoutdoor.in",
 } as const;
 
+/**
+ * Sister brand. Great Indoors is a separate site and codebase; this outbound
+ * link is the only connection between them, and it is deliberate — the two
+ * ventures cross-sell each other.
+ */
+export const SISTER_SITE = {
+  name: "Great Indoors",
+  shortLabel: "Great Indoors",
+  url: "https://greatindoor.in",
+} as const;
+
 /** Digits only, country code first — the format wa.me expects. */
 export const WHATSAPP_NUMBER = "919829012090";
 

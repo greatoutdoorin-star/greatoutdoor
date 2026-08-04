@@ -118,7 +118,7 @@ export default async function Home() {
     >
       <HeroSlider slides={slides} />
 
-      <PromoSplit image="/home/promo.webp" products={promo} />
+      <PromoSplit products={promo} />
 
       <section className="px-6 pb-16 lg:px-14">
         <div className="mb-10 flex flex-wrap items-baseline justify-between gap-4">
@@ -142,13 +142,18 @@ export default async function Home() {
         }
       />
 
-      <section className="px-6 py-16 lg:px-14">
-        <h2 style={{ fontSize: "var(--text-h0)" }}>Our Clientele</h2>
-        <p className="mt-6 max-w-3xl font-body leading-relaxed text-ink-muted">
-          Trusted by leading hotels, resorts and hospitality groups across the
-          country.
-        </p>
-        <div className="mt-12">
+      {/* Padding sits on the heading rather than the section: the logo strip
+          runs edge to edge so logos scroll off the page instead of stopping
+          short at a gutter. */}
+      <section className="py-16 lg:py-20">
+        <div className="px-6 lg:px-14">
+          <h2 style={{ fontSize: "var(--text-h0)" }}>Our Clientele</h2>
+          <p className="mt-6 max-w-3xl font-body leading-relaxed text-ink-muted">
+            Trusted by leading hotels, resorts and hospitality groups across the
+            country.
+          </p>
+        </div>
+        <div className="mt-8">
           <ClienteleCarousel logos={CLIENT_LOGOS} />
         </div>
       </section>

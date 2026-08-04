@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { recordLead } from "@/lib/leads";
 import { buildWhatsAppLink } from "@/lib/whatsapp";
 
 /**
- * General contact form. As with the B2B form, submitting composes a pre-filled
- * WhatsApp message rather than posting to a server — this site has no backend
- * lead store by design.
+ * General contact form. Records the lead, then opens a pre-filled WhatsApp
+ * message — see B2bEnquiryForm for why the write happens before the hand-off.
  */
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -23,6 +23,15 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    void recordLead({
+      source: "contact",
+      name: form.name,
+      phone: form.phone,
+      email: form.email,
+      message: form.message,
+    });
+
     const lines = [
       `Name: ${form.name}`,
       form.email && `Email: ${form.email}`,

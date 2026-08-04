@@ -1,4 +1,5 @@
 import AnnouncementBar from "./AnnouncementBar";
+import EnquiryFab from "./EnquiryFab";
 import Footer from "./Footer";
 import Sidebar, { type NavCollection } from "./Sidebar";
 import ValueProps from "./ValueProps";
@@ -38,6 +39,7 @@ export default function SiteShell({
         <ValueProps />
         <Footer />
       </div>
+      <EnquiryFab />
       <WhatsAppFab />
     </div>
   );
