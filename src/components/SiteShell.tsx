@@ -29,9 +29,12 @@ export default function SiteShell({
         pt-16 clears the fixed mobile header; .site-main clears the desktop
         rail. The announcement bar is also fixed, so .has-announcement adds its
         height on top — see globals.css.
+
+        pb-16 clears the fixed mobile CTA bar, which would otherwise sit over
+        the last rows of the footer. Desktop has no bar, so the padding lifts.
       */}
       <div
-        className={`site-main pt-16 lg:pt-0 ${
+        className={`site-main pb-16 pt-16 lg:pb-0 lg:pt-0 ${
           announcement ? "has-announcement" : ""
         }`}
       >

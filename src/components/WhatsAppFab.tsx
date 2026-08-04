@@ -7,8 +7,11 @@ type Props = {
 };
 
 /**
- * Floating WhatsApp button, bottom-right on every page.
- * This is the site's only persistent conversion affordance — there is no cart.
+ * Floating WhatsApp button, bottom-right. Desktop only.
+ *
+ * Below `lg` this action lives in MobileCtaBar instead — on a phone the two
+ * stacked circles covered the content they floated over, and neither said what
+ * it did.
  */
 export default function WhatsAppFab({ template, number }: Props) {
   return (
@@ -17,7 +20,7 @@ export default function WhatsAppFab({ template, number }: Props) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Enquire on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp shadow-lg transition-transform hover:scale-105 hover:bg-whatsapp-hover"
+      className="fixed bottom-6 right-6 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-whatsapp shadow-lg transition-transform hover:scale-105 hover:bg-whatsapp-hover lg:flex"
     >
       <svg
         viewBox="0 0 24 24"

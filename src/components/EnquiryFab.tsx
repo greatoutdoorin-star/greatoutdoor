@@ -2,18 +2,30 @@
 
 import { useEffect, useRef, useState } from "react";
 import EnquiryForm from "./EnquiryForm";
+import MobileCtaBar from "./MobileCtaBar";
+import { generalEnquiryLink } from "@/lib/whatsapp";
+
+type Props = {
+  /** Overrides from the `settings` table; falls back to build-time defaults. */
+  template?: string;
+  number?: string;
+};
 
 /**
- * Floating enquiry button, sitting above the WhatsApp FAB.
+ * Persistent enquiry affordance, and the owner of the enquiry dialog.
  *
- * Opens an enquiry form in a dialog, so a visitor can start one from wherever
- * they are — usually a product page — without losing their place.
+ * Desktop keeps the floating circular button above the WhatsApp FAB. Mobile
+ * gets MobileCtaBar instead — two stacked circles on a phone covered the
+ * content they floated over and left the user guessing what each icon did.
+ *
+ * Both entry points open the same dialog from this one component, so the form
+ * has a single owner and the focus and scroll handling below is not duplicated.
  *
  * Uses EnquiryForm rather than the B2B page's form: this opens site-wide, so
  * it carries the "Who are you?" / "What are you looking for?" qualifiers that
  * the B2B page does not need.
  */
-export default function EnquiryFab() {
+export default function EnquiryFab({ template, number }: Props = {}) {
   const [open, setOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement>(null);
@@ -54,14 +66,19 @@ export default function EnquiryFab() {
 
   return (
     <>
-      {/* bottom-24 clears the 56px WhatsApp FAB plus its 24px offset. */}
+      <MobileCtaBar
+        onEnquire={() => setOpen(true)}
+        whatsappHref={generalEnquiryLink(template, number)}
+      />
+
+      {/* Desktop only — bottom-24 clears the 56px WhatsApp FAB plus its offset. */}
       <button
         ref={openerRef}
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Open enquiry form"
         aria-haspopup="dialog"
-        className="fixed bottom-24 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-ink shadow-lg transition-transform hover:scale-105 hover:bg-accent"
+        className="fixed bottom-24 right-6 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-ink shadow-lg transition-transform hover:scale-105 hover:bg-accent lg:flex"
       >
         <svg
           viewBox="0 0 24 24"
