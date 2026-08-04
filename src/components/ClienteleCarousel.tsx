@@ -41,24 +41,32 @@ export default function ClienteleCarousel({ logos }: Props) {
             {logos.map((src, i) => (
               <div
                 key={`${copy}-${src}`}
-                // Boxes are 2:1, matching the logo assets exactly, so the whole
-                // box is used — sizing up here makes the mark bigger rather
-                // than adding padding around it.
-                //
-                // Gap as horizontal margin rather than flex `gap`: the track is
-                // two copies laid end to end, and a gap would not be applied
-                // between the last item of one copy and the first of the next,
-                // putting a visible hitch in an otherwise seamless loop. Margins
-                // are deliberately tighter than before, so the extra width goes
-                // to the logos and not the space between them.
-                className="relative mx-4 h-22 w-44 shrink-0 sm:mx-5 sm:h-28 sm:w-56 lg:mx-7 lg:h-36 lg:w-72"
+                /*
+                  Fixed HEIGHT, natural width — the standard way to set a logo
+                  strip, and the only way to give marks equal visual weight now
+                  that the assets are trimmed. Before trimming every file was a
+                  uniform 2:1, but only because each held 60-75% transparent
+                  padding; the real marks range from 0.71 to 4.32, so a fixed
+                  width would render a wide wordmark tiny and a square emblem
+                  huge.
+
+                  max-w caps the extremes: one asset is 4.32:1 and would
+                  otherwise run 242px wide against a 40px neighbour.
+
+                  Gap as horizontal margin rather than flex `gap`: the track is
+                  two copies laid end to end, and a gap would not apply between
+                  the last item of one copy and the first of the next, putting a
+                  visible hitch in an otherwise seamless loop.
+                */
+                className="mx-4 flex h-14 w-auto max-w-[180px] shrink-0 items-center sm:mx-5 sm:h-16 sm:max-w-[210px] lg:mx-6 lg:h-20 lg:max-w-[260px]"
               >
                 <Image
                   src={src}
                   alt={copy === 0 ? `Client ${i + 1}` : ""}
-                  fill
-                  sizes="(max-width: 640px) 176px, (max-width: 1023px) 224px, 288px"
-                  className="object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+                  width={400}
+                  height={200}
+                  sizes="(max-width: 640px) 180px, (max-width: 1023px) 210px, 260px"
+                  className="h-full w-auto max-w-full object-contain opacity-70 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
                 />
               </div>
             ))}
