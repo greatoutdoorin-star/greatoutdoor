@@ -1,17 +1,17 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import B2bEnquiryForm from "./B2bEnquiryForm";
+import EnquiryForm from "./EnquiryForm";
 
 /**
  * Floating enquiry button, sitting above the WhatsApp FAB.
  *
- * Opens the bulk / B2B form in a dialog rather than routing to
- * /pages/b2b-leads, so an enquiry can be started from wherever the visitor
- * happens to be — usually a product page — without losing their place.
+ * Opens an enquiry form in a dialog, so a visitor can start one from wherever
+ * they are — usually a product page — without losing their place.
  *
- * The form itself is the same component the B2B page renders; only spacing
- * differs, so the two can never drift apart.
+ * Uses EnquiryForm rather than the B2B page's form: this opens site-wide, so
+ * it carries the "Who are you?" / "What are you looking for?" qualifiers that
+ * the B2B page does not need.
  */
 export default function EnquiryFab() {
   const [open, setOpen] = useState(false);
@@ -59,7 +59,7 @@ export default function EnquiryFab() {
         ref={openerRef}
         type="button"
         onClick={() => setOpen(true)}
-        aria-label="Open bulk and B2B enquiry form"
+        aria-label="Open enquiry form"
         aria-haspopup="dialog"
         className="fixed bottom-24 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-ink shadow-lg transition-transform hover:scale-105 hover:bg-accent"
       >
@@ -101,7 +101,7 @@ export default function EnquiryFab() {
                   id="enquiry-dialog-title"
                   style={{ fontSize: "var(--text-h2)" }}
                 >
-                  Bulk / B2B Enquiry
+                  Send an Enquiry
                 </h2>
                 <p
                   className="mt-2 font-body text-ink-muted"
@@ -121,7 +121,7 @@ export default function EnquiryFab() {
             </div>
 
             <div className="mt-6">
-              <B2bEnquiryForm compact onSubmitted={() => setOpen(false)} />
+              <EnquiryForm onSubmitted={() => setOpen(false)} />
             </div>
           </div>
         </div>
